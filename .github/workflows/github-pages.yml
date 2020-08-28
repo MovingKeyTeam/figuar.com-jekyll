@@ -4,9 +4,10 @@ on:
   
 jobs:
   see-page-build-payload:
+    name: See page build payload
     runs-on: ubuntu-latest
     steps:      
-      - name: check status
+      - name: Check status
         run: |
           import os
           status, errormsg = os.getenv('STATUS'), os.getenv('ERROR')
