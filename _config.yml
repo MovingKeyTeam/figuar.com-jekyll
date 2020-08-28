@@ -34,6 +34,8 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: /assets/css/_sass
+naver_maps:
+  client_id: lc283aiiwo
 
 # Exclude from processing.
 # The following items will not be processed, by default.
