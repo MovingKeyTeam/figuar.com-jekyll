@@ -1,0 +1,18 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll build --trace"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll clean"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "bundle exec jekyll serve --trace"
+    }
+  },
+  "identifier" : "D60C270D-E469-49A5-A269-BC0440DD4EE4",
+  "openLogOnRun" : "start"
+}

@@ -1,0 +1,92 @@
+---
+title: 연락처
+layout: default
+permalink: /contact/
+---
+
+<section class="bg-dark text-light header-inner p-0 jarallax position-relative" data-jarallax data-speed="0.2" data-overlay>
+    <img src="/assets/img/inner-6.jpg" alt="Image" class="jarallax-img opacity-40">
+    <div class="container py-0">
+        <div class="row my-3">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="/">홈</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            연락처
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="row my-4 my-md-6" data-aos="fade-up">
+            <div class="col-lg-9 col-xl-8">
+                <h1 class="display-4">Get In Touch</h1>
+                <p class="lead mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+            </div>
+        </div>
+    </div>
+    <div class="divider">
+        <img src="/assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
+    </div>
+</section>
+<section class="bg-white">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <h3 class="h2">주소</h3>
+                <span class="lead">
+                    {{ site.address }}
+                </span>
+                <div class="text-muted">{{ site.address_suffix }}</div>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <h3 class="h2">이메일</h3>
+                <a href="mailto:{{ site.email }}" class="lead">{{ site.email }}</a>
+            </div>
+            <div class="col-sm-4 mb-3 mb-sm-0">
+                <h3 class="h2">전화</h3>
+                <a href="{{ site.phone }}" class="lead">{{ site.phone }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white pt-0">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="map" class="min-vh-50 w-100 rounded shadow-3d" style="-webkit-transform: translate(0, 0);"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId={{ site.naver_maps.client_id }}&callback=initMap"></script>
+<script>
+    let map = null;
+    let marker = null;
+    
+    function initMap() {
+        let center = new naver.maps.LatLng(37.5847262, 126.8858949);
+        
+        map = new naver.maps.Map('map', {
+            center: center,
+            zoom: 16,
+            scrollWheel: false,
+            disableKineticPan: false,
+            scaleControl: false,
+            zoomControl: true,
+            zoomControlOptions: {
+                style: naver.maps.ZoomControlStyle.SMALL,
+                position: naver.maps.Position.TOP_RIGHT
+            }
+        });
+        
+        marker = new naver.maps.Marker({
+            position: center,
+            map: map
+        });
+    }
+</script>
