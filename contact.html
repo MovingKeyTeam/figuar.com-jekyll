@@ -38,18 +38,17 @@ permalink: /contact/
             <div class="col-sm-4 mb-3 mb-sm-0">
                 <h3 class="h2">주소</h3>
                 <span class="lead">
-                    서울특별시 마포구 성암로 330,<br>
-                    A동 404-3호
+                    {{ site.address }}
                 </span>
-                <div class="text-muted">(상암동, DMC첨단산업센터)</div>
+                <div class="text-muted">{{ site.address_suffix }}</div>
             </div>
             <div class="col-sm-4 mb-3 mb-sm-0">
                 <h3 class="h2">이메일</h3>
-                <a href="mailto:contact@figuar.com" class="lead">contact@figuar.com</a>
+                <a href="mailto:{{ site.email }}" class="lead">{{ site.email }}</a>
             </div>
             <div class="col-sm-4 mb-3 mb-sm-0">
                 <h3 class="h2">전화</h3>
-                <a href="tel:+82-10-3030-5050" class="lead">+82 10-3030-5050</a>
+                <a href="{{ site.phone }}" class="lead">{{ site.phone }}</a>
             </div>
         </div>
     </div>

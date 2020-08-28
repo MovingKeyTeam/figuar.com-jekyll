@@ -19,15 +19,22 @@
 # in the templates via {{ site.myvariable }}.
 
 title: FiguAR
-email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+address: 서울특별시 마포구 성암로 330, A동 404-3호
+address_suffix: (상암동, DMC첨단산업센터)
+phone: +82 10-3030-5050
+email: contact@figuar.com
+
+social:
+  youtube: UCxKzdsvQrzC3jh0YQVituWQ
+  facebook: Figuar-108932247442568
+  instagram: movingkey
 
 # Build settings
 plugins:
