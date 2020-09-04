@@ -1,5 +1,6 @@
 <footer class="pb-4 bg-primary-3 text-light" id="footer">
     <div class="container">
+        {% unless page.hide_banner == true %}
         <div class="row mb-5">
             <div class="col">
                 <div class="card card-body border-0 o-hidden mb-0 bg-primary text-light">
@@ -12,6 +13,7 @@
                 </div>
             </div>
         </div>
+        {% endunless %}
         <div class="row mb-5">
             <div class="col-12 col-lg">
                 <h5>연락처</h5>
@@ -55,6 +57,11 @@
                     <li class="nav-item">
                         <a href="https://www.instagram.com/{{ site.social.instagram }}/" class="nav-link">
                             <img class="icon undefined" src="/assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://github.com/{{ site.social.github }}/" class="nav-link">
+                            <img class="icon undefined" src="/assets/img/icons/theme/social/github.svg" alt="github social icon" data-inject-svg />
                         </a>
                     </li>
                 </ul>
