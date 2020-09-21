@@ -15,3 +15,14 @@
 video {
     max-width: 100%;
 }
+
+.mobile-screenshot {
+    video, .plyr__poster {
+        padding: 7%;
+    }
+    
+    img:last-child {
+        pointer-events: none;
+        touch-action: none;
+    }
+}
