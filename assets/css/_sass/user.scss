@@ -17,6 +17,13 @@ video {
 }
 
 .mobile-screenshot {
+    
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
     video, .plyr__poster {
         padding: 7%;
     }
