@@ -38,6 +38,8 @@ social:
   github: figuar
 
 # Build settings
+destination: docs
+
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
@@ -49,6 +51,9 @@ sass:
   sass_dir: /assets/css/_sass
 naver_maps:
   client_id: lc283aiiwo
+
+exclude:
+  - docs
 
 # Exclude from processing.
 # The following items will not be processed, by default.

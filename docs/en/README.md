@@ -1,0 +1,2 @@
+# [figuar.github.io](https://figuar.github.io/)
+[![GitHub Pages Status](https://github.com/figuar/figuar.github.io/workflows/GitHub%20Pages/badge.svg)](https://github.com/figuar/figuar.github.io/actions)
