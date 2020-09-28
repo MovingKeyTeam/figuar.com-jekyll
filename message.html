@@ -365,9 +365,9 @@ permalink: /message/
               <span>월 600회 페이지뷰</span>
             </li>
           </ul>
-          <a href="#" class="btn btn-outline-primary">
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#purchase-modal">
             결제
-          </a>
+          </button>
         </div>
       </div>
       <div class="col-md-3" data-aos="fade-up" data-aos-delay="NaN">
@@ -388,9 +388,9 @@ permalink: /message/
               <span>월 2,000회 페이지뷰</span>
             </li>
           </ul>
-          <a href="#" class="btn btn-outline-primary">
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#purchase-modal">
             결제
-          </a>
+          </button>
         </div>
       </div>
       <div class="col-md-3" data-aos="fade-up" data-aos-delay="NaN">
@@ -412,9 +412,9 @@ permalink: /message/
               <span>월 6,000회 페이지뷰</span>
             </li>
           </ul>
-          <a href="#" class="btn btn-primary">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#purchase-modal">
             결제
-          </a>
+          </button>
         </div>
       </div>
       <div class="col-md-3" data-aos="fade-up" data-aos-delay="NaN">
@@ -435,9 +435,32 @@ permalink: /message/
               <span>월 10,000회 페이지뷰</span>
             </li>
           </ul>
-          <a href="#" class="btn btn-outline-primary">
+          <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#purchase-modal">
             결제
-          </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="purchase-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <img class="icon bg-dark" src="/assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+          </button>
+          <div class="m-xl-4 m-3">
+            <div class="icon-round icon-round-lg bg-primary mx-auto mb-4">
+              <img class="icon bg-primary" src="/assets/img/icons/theme/communication/mail.svg" alt="mail-opened icon" data-inject-svg />
+            </div>
+            <div class="text-center mb-4">
+              <h4 class="h3 mb-1">FiguAR에게 연락을 남겨주세요.</h4>
+              <p>FiguAR에게 연락을 남겨주시면 서비스 결제와 관련된 자세한 정보를 회신해 드리겠습니다.</p>
+            </div>
+            <a class="btn btn-primary btn-block" href="/contact/">
+              문의하기
+            </a>
+          </div>
         </div>
       </div>
     </div>
