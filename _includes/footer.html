@@ -5,10 +5,8 @@
 			<div class="col">
 				<div class="card card-body border-0 o-hidden mb-0 bg-primary text-light">
 					<div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
-						<div class="h3 text-center mb-md-0">저희와 함께 미래를 열어갈 파트너를 찾고 있습니다.</div>
-						<a href="/contact/" class="btn btn-lg btn-white">
-							문의하기
-						</a>
+						<div class="h3 text-center mb-md-0">{% translate footer.banner %}</div>
+						<a href="/contact/" class="btn btn-lg btn-white">{% translate global.contact_verb %}</a>
 					</div>
 				</div>
 			</div>
@@ -16,14 +14,14 @@
 		{% endunless %}
 		<div class="row mb-5">
 			<div class="col-12 col-lg">
-				<h5>연락처</h5>
+				<h5>{% translate global.contact_noun %}</h5>
 				<ul class="list-unstyled">
 					<li class="mb-3 d-flex">
 						<img class="icon" src="/assets/img/icons/theme/map/marker-1.svg" alt="marker-1 icon" data-inject-svg />
 						<div class="ml-3">
-							<span
-								>{{ site.address }}
-								<span class="d-block text-muted text-small">{{ site.address_suffix }}</span>
+							<span>
+								{% translate global.address %}
+								<span class="d-block text-muted text-small">{% translate global.address_suffix %}</span>
 							</span>
 						</div>
 					</li>
@@ -70,7 +68,7 @@
 		</div>
 		<div class="row justify-content-center">
 			<div class="col col-md-auto text-center">
-				<small class="text-muted">© 2015-{{ 'now' | date: "%Y" }} 주식회사 무빙키</small>
+				<small class="text-muted">© {{ site.foundation_year }}-{{ 'now' | date: "%Y" }} {% translate global.company_name %}</small>
 			</div>
 		</div>
 	</div>

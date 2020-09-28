@@ -1,4 +1,9 @@
 global:
+  company_name: 주식회사 무빙키
+  contact_noun: 연락처
+  contact_verb: 문의하기
+  address: "서울특별시 마포구 성암로 330, A동 404-3호"
+  address_suffix: "(상암동, DMC첨단산업센터)"
   learn_more: 더 알아보기
 
 nav:
@@ -8,6 +13,9 @@ nav:
   customer_stories: 고객 사례
   about: 회사 소개
   contact: 연락하기
+
+footer:
+  banner: 저희와 함께 미래를 열어갈 파트너를 찾고 있습니다.
 
 home:
   hero:

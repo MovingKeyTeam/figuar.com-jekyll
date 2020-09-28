@@ -1,4 +1,9 @@
 global:
+  company_name: MovingKey Corporation
+  contact_noun: Contact
+  contact_verb: Contact
+  address: "#404-3, A-dong, 330, Seongam-ro, Mapo-gu, Seoul, South Korea"
+  address_suffix: "(Sangam-dong, DMC High-tech Industrial Center)"
   learn_more: Learn more
 
 nav:
@@ -8,6 +13,9 @@ nav:
   customer_stories: Customer Stories
   about: About
   contact: Contact
+
+footer:
+  banner: We are looking for a partner who will open the future with us.
 
 home:
   hero:
