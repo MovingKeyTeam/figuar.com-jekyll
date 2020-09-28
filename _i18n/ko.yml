@@ -1,0 +1,33 @@
+global:
+  learn_more: 더 알아보기
+
+nav:
+  product: 제품
+  figuar_message: FiguAR Message
+  figuar_studio: FiguAR Studio
+  customer_stories: 고객 사례
+  about: 회사 소개
+  contact: 연락하기
+
+home:
+  hero:
+    subtitle: 또 다른 나, AR 트윈
+    title: FiguAR
+    lead: >
+      나를 대신해 메시지를 전해주는 똑똑한 AR 피규어,<br>
+      FiguAR를 만나보세요.
+    demo_button: 360° 데모 체험하기
+    watch_button: 소개 영상 보기
+  message:
+    subtitle: 나와 고객을 잇는 인연의 연결점
+    title: FiguAR Message
+    lead: >
+      AR 트윈을 고객에게 보내 비대면 메시지를 실감나게 전해보세요.
+      고객의 안방부터 지구 반대편까지, 때와 장소를 가리지 않고 달려가는 든든한 파트너와 함께라면
+      더 많은 고객의 신뢰를 얻기도 수월해지죠.
+  studio:
+    subtitle: AR 트윈이 탄생하는 공간
+    title: FiguAR Studio
+    lead: >
+      나와 똑 닮은 AR 트윈을 생성하고 애니메이션을 입히는 모든 과정이 자동으로 이루어지는 공간, FiguAR Studio를 만나보세요.
+      간편하게 3D 피규어를 프린트하고 AR 메시지를 보내면서 실생활에 AR을 적용할 수 있습니다.

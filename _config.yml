@@ -40,6 +40,11 @@ social:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
+
+languages: ["ko", "en"]
+exclude_from_localizations: ["assets"]
+
 sass:
   sass_dir: /assets/css/_sass
 naver_maps:

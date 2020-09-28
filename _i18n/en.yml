@@ -1,0 +1,37 @@
+global:
+  learn_more: Learn more
+
+nav:
+  product: Product
+  figuar_message: FiguAR Message
+  figuar_studio: FiguAR Studio
+  customer_stories: Customer Stories
+  about: About
+  contact: Contact
+
+home:
+  hero:
+    subtitle: Another Me, AR Twin
+    title: FiguAR
+    lead: >
+      Meet FiguAR, a smart AR figure<br>
+      which delivers a messsage for me.
+    demo_button: Try 360° demo
+    watch_button: Watch the video
+  message:
+    subtitle: >
+      A relationship between<br>
+      you and your customer
+    title: FiguAR Message
+    lead: >
+      Deliver a realistic message by sending an AR twin to the customer.
+      It's easy to get more trust from the customers with FiguAR,
+      a reliable partner which runs from the customer's home to the opposite side of the Earth anytime, anywhere.
+  studio:
+    subtitle: >
+      A space<br>
+      where the AR twin is created
+    title: FiguAR Studio
+    lead: >
+      Meet FiguAR Studio, a space where all the processes of creating and animating AR twins are automatically done.
+      You can apply AR technology in your real life by printing 3D figures and sending AR messages.
