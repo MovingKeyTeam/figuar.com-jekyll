@@ -54,7 +54,7 @@ naver_maps:
   client_id: lc283aiiwo
 
 exclude:
-  - docs
+  - docs # Prevent `docs` to be compiled recursively in languages directory
 
 # Exclude from processing.
 # The following items will not be processed, by default.
