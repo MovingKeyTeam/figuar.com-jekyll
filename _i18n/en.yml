@@ -1,10 +1,15 @@
 global:
+  address: Address
   company_name: MovingKey Corporation
   contact_noun: Contact
   contact_verb: Contact
-  address: "#404-3, A-dong, 330, Seongam-ro, Mapo-gu, Seoul, South Korea"
-  address_suffix: "(Sangam-dong, DMC High-tech Industrial Center)"
+  email: Email
+  home: Home
+  hq_address: "#404-3, A-dong, 330, Seongam-ro, Mapo-gu, Seoul, South Korea"
+  hq_address_suffix: "(Sangam-dong, DMC High-tech Industrial Center)"
   learn_more: Learn more
+  location: Location
+  phone: Phone
 
 nav:
   product: Product
@@ -19,7 +24,7 @@ footer:
 
 home:
   hero:
-    subtitle: Another Me, AR Twin
+    subtitle: Another me, AR twin
     title: FiguAR
     lead: >
       Meet FiguAR, a smart AR figure<br>
@@ -43,3 +48,10 @@ home:
     lead: >
       Meet FiguAR Studio, a space where all the processes of creating and animating AR twins are automatically done.
       You can apply AR technology in your real life by printing 3D figures and sending AR messages.
+
+contact:
+      hero:
+        title: Meet FiguAR team
+        lead: >
+          Talk to the FiguAR team members.<br>
+          We are actively reviewing not only the voices of our customers but also investment and business partnership inquiries.

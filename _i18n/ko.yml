@@ -2,9 +2,13 @@ global:
   company_name: 주식회사 무빙키
   contact_noun: 연락처
   contact_verb: 문의하기
-  address: "서울특별시 마포구 성암로 330, A동 404-3호"
-  address_suffix: "(상암동, DMC첨단산업센터)"
+  email: 이메일
+  home: 홈
+  hq_address: "서울특별시 마포구 성암로 330, A동 404-3호"
+  hq_address_suffix: "(상암동, DMC첨단산업센터)"
   learn_more: 더 알아보기
+  location: 위치
+  phone: 전화
 
 nav:
   product: 제품
@@ -39,3 +43,10 @@ home:
     lead: >
       나와 똑 닮은 AR 트윈을 생성하고 애니메이션을 입히는 모든 과정이 자동으로 이루어지는 공간, FiguAR Studio를 만나보세요.
       간편하게 3D 피규어를 프린트하고 AR 메시지를 보내면서 실생활에 AR을 적용할 수 있습니다.
+
+contact:
+  hero:
+    title: 직접 만나는 FiguAR 사람들
+    lead: >
+      FiguAR 팀원들과 이야기를 나눠보세요.<br>
+      고객들의 목소리는 물론 투자, 사업 제휴 문의도 적극적으로 검토하고 있습니다.
