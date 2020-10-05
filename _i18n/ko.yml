@@ -44,6 +44,185 @@ home:
       나와 똑 닮은 AR 트윈을 생성하고 애니메이션을 입히는 모든 과정이 자동으로 이루어지는 공간, FiguAR Studio를 만나보세요.
       간편하게 3D 피규어를 프린트하고 AR 메시지를 보내면서 실생활에 AR을 적용할 수 있습니다.
 
+message:
+  hero:
+    subtitle: 차세대 AR 메시지 서비스 (AMS)
+    title: FiguAR Message
+    lead: >
+      FiguAR Message는 사람이 직접 전달하듯이 오프라인 느낌 그대로 메시지를 생생하게 전달할 수 있는 차세대 AR 메시지 서비스(AMS)입니다.
+      FiguAR Studio가 제공하는 3,000+개의 움직이는 AR 메시지로 고객들의 마음도 움직여 보세요.
+  ar_twin:
+    title: >
+      AR 트윈이 전달하는<br>
+      신개념 AR 메시지
+    lead: >
+      매년 보내는 명절 인사나 생일 축하 메시지를 FiguAR Message로 특별하게 보내보세요.
+      간단한 인사부터 멋있는 축하 댄스까지.
+      FiguAR에서 제공하는 3,000+개의 애니메이션 프리셋 덕분에 AR 트윈이 표현 못할 동작은 없죠.
+    screenshots:
+      - src: "/assets/img/message/louis-introducing.png"
+      - src: "/assets/img/message/louis-deepbow.png"
+      - src: "/assets/img/message/louis-hammerdance.png"
+      - src: "/assets/img/message/louis-paris.png"
+  voice:
+    badge: 추천
+    title: 직접 녹음해서 전하는 생생한 목소리
+    lead: >
+      AR 트윈에 목소리를 더해 활력을 불어넣어 보세요.
+      분위기를 리드할 잔잔한 배경음악을 깔아두는 것도 물론 가능하죠.
+    features:
+      -
+        icon: "/assets/img/icons/theme/media/volume-half.svg"
+        title: 음성 녹음
+        lead: 함께 제공되는 FiguAR 앱을 통해 목소리를 녹음하면 애니메이션 재생 시 음성과 함께 자동 생성된 텍스트가 배너로 보여집니다.
+      -
+        icon: "/assets/img/icons/theme/media/add-music.svg"
+        title: 배경 음악
+        lead: 무료 음악들 중 원하는 것을 선택해 배경 음악으로 재생할 수 있습니다. 음소거 버튼이 있어 필요할 때 소리를 잠깐 꺼둘 수 있습니다.
+  web_ar:
+    title: >
+      앱 설치가 필요 없는<br>
+      WebAR 기술로<br>
+      어디서든 편하게
+    lead: >
+      AR 메시지를 보기 위해 앱을 설치해야 한다면 굳이 그럴 사람은 많지 않겠죠.
+      FiguAR Message는 WebAR 기술을 사용하여 앱을 설치하지 않고도 웹 브라우저를 통해 AR 메시지를 보여줄 수 있습니다.
+      덕분에 링크를 생성해 사람들에게 공유하기도 더욱 쉬워졌죠.
+  social:
+    title: >
+      다른 채널로의 징검다리,<br>
+      소셜 링크 버튼
+    lead: >
+      FiguAR Message를 다른 소셜 채널로 연결하기 위한 거점으로 사용하는 것도 좋은 방법입니다.
+      홈페이지는 물론 블로그, 트위터, 페이스북, 인스타그램, 유튜브, 심지어 전화번호나 이메일, 카카오톡 연결까지 모든 것이 가능하죠.
+    label: 연결 가능한 서비스
+  comparison:
+    title: >
+      진부한 SMS, MMS?<br>
+      이제는 AMS.
+    lead: ""
+  pricing:
+    title: 지금 시작해 보세요
+    lead: ""
+    currency: ￦
+    purchase: 결제
+    plans:
+      -
+        name: 스타터
+        price: 3만
+        subscription: 월간 구독
+        features:
+          - 연 1회 촬영
+          - 월 600회 페이지뷰
+      -
+        name: 베이직
+        price: 10만
+        subscription: 월간 구독
+        features:
+          - 월 1회 촬영
+          - 월 2,000회 페이지뷰
+      -
+        badge: 추천
+        name: 프로
+        price: 30만
+        subscription: 월간 구독
+        features:
+          - 월 2회 촬영
+          - 월 6,000회 페이지뷰
+      -
+        name: 엔터프라이즈
+        price: 50만
+        subscription: 월간 구독
+        features:
+          - 월 3회 촬영
+          - 월 10,000회 페이지뷰
+  purchase_modal:
+    title: FiguAR에게 연락을 남겨주세요.
+    lead: FiguAR에게 연락을 남겨주시면 서비스 결제와 관련된 자세한 정보를 회신해 드리겠습니다.
+
+studio:
+  hero:
+    subtitle: 1인 1 AR 트윈 시대를 열다
+    title: FiguAR Studio
+    lead: >
+      누구나 손쉽게 자신의 AR 트윈을 만들 수 있는 공간, FiguAR Studio를 만나보세요.
+      자신만의 피규어를 만들면서 3D 프린팅을 자연스럽게 익히고, AR 메시지를 만들어 보내면서 AR을 소통의 수단으로 활용할 수 있습니다.
+  process:
+    title: >
+      찰칵 한 번으로 만드는<br>
+      고퀄리티 AR 트윈
+    lead: >
+      한 번쯤 갖고 싶었던 나의 AR 아바타, 나를 똑 닮은 AR 트윈을 만들어 보세요. 동기화되어 작동하는 96대의 카메라 셔터 한 방이면 3D 스캐닝은 순식간에 끝나버리죠.<br />
+      스튜디오의 고성능 컴퓨터가 2000만 화소의 사진 96장을 조합하는 동안 잠깐의 담소를 나누다 보면 어느새 완성된 AR 트윈이 기다리고 있을 겁니다.
+    specs:
+      -
+        aos_delay: 100
+        title: 카메라 대수
+        start_value: 0
+        end_value: 96
+      -
+        aos-delay: 200
+        title: 개별 카메라 해상도
+        start_value: 0
+        end_value: 20
+        suffix: MP
+      -
+        aos-delay: 300
+        title: 촬영 소요 시간
+        start_value: 50
+        end_value: 0.5
+        decimal_places: 1
+        suffix: 초
+      -
+        aos-delay: 400
+        title: 모델 빌드 시간
+        start_value: 500
+        end_value: 5
+        suffix: 분
+  animation:
+    title: >
+      FiguAR에서 제공하는<br>
+      3000+개 애니메이션
+    lead: >
+      걷고 뛰는 동작부터 최신 K-Pop 댄스까지, AR 트윈에 생명력을 불어넣어 보세요.<br>
+      FiguAR가 미리 설계한 3000+개의 애니메이션 프리셋이면 클릭 한 번으로 간편하게 AR 트윈에 애니메이션을 적용할 수 있습니다.
+    videos:
+      -
+        icon: "/assets/img/icons/theme/communication/chat-2.svg"
+        title: 소개
+        src: "/assets/videos/animation-introducing.mov"
+      -
+        icon: "/assets/img/icons/theme/communication/group.svg"
+        title: 큰절
+        src: "/assets/videos/animation-deepbow.mov"
+  kids:
+    title: >
+      아이들이 더 좋아하는<br>
+      FiguAR Studio
+    lead: >
+      아이들에게 AR 트윈을 하나씩 선물해 보세요.
+      자신과 닮은 또다른 나의 탄생 과정을 지켜보는 것만으로도 아이들에게 신나고 즐거운 경험이 될 수 있습니다.
+      아이들이 AR 트윈을 갖고 노는 사이 4차 산업 혁명의 핵심 기술인 AR에 대한 안목도 기를 수 있죠.
+  usage:
+    title: 나의 자랑, 나의 멋진 AR 트윈
+    lead: >
+      이렇게 만든 AR 트윈, 혼자서만 보기는 아깝죠.
+      FiguAR Message와 Sticker를 사용하면 손쉽게 AR 메시지를 보내고 AR 스티커를 사용한 영상을 만들 수 있습니다.
+    outlets:
+      -
+        icon: "/assets/img/icons/theme/communication/adress-book-2.svg"
+        title: FiguAR Message
+        lead: 간단한 자기 소개부터 복잡한 상품 홍보까지, FiguAR Message로 고객들의 마음을 사로잡아 보세요.
+        detail_path: "/message/"
+      -
+        icon: "/assets/img/icons/theme/communication/sending.svg"
+        title: FiguAR Sticker
+        lead: FiguAR Sticker를 사용하면 AR 트윈을 활용한 간단한 영상을 만들 수 있습니다.
+      -
+        icon: "/assets/img/icons/theme/shopping/box-2.svg"
+        title: 3D 모델 파일
+        lead: 전문가의 경우 FiguAR Studio에서 제공하는 3D 모델 파일을 활용하여 아바타를 무궁무진하게 활용할 수 있습니다.
+
 customer_stories:
   hero:
     title: 고객 사례

@@ -48,6 +48,185 @@ home:
     lead: >
       Meet FiguAR Studio, a space where all the processes of creating and animating AR twins are automatically done.
       You can apply AR technology in your real life by printing 3D figures and sending AR messages.
+  
+message:
+  hero:
+    subtitle: A next-generation AR message service (AMS)
+    title: FiguAR Message
+    lead: >
+      FiguAR Message is a next-generation AR message service (AMS) that can deliver messages as realistically as they are offline.
+      Touch your customers' minds with 3,000+ animating AR messages provided by FiguAR Studio.
+  ar_twin:
+    title: >
+      New-normal AR message<br>
+      from the AR Twin
+    lead: >
+      Spend your annual holiday greetings or happy birthday messages in a special FiguAR Message.
+      From simple greetings to cool celebratory dance.
+      Thanks to the 3,000+ animation presets provided by FiguAR, there's nothing AR Twin can't do.
+    screenshots:
+      - src: "/assets/img/message/louis-introducing.png"
+      - src: "/assets/img/message/louis-deepbow.png"
+      - src: "/assets/img/message/louis-hammerdance.png"
+      - src: "/assets/img/message/louis-paris.png"
+  voice:
+    badge: Featured
+    title: Send your real voice by recording
+    lead: >
+      Add your voice to the AR Twin to invigorate it.
+      Of course, it's possible to have a calm background music that will lead the mood.
+    features:
+      -
+        icon: "/assets/img/icons/theme/media/volume-half.svg"
+        title: Voice Recording
+        lead: When you record your voice through the accompanying FiguAR app, automatically generated text with voice appears as a banner when you play the animation.
+      -
+        icon: "/assets/img/icons/theme/media/add-music.svg"
+        title: Background Music
+        lead: You can choose from free music to play as your background music. There is a mute button which allows you to turn off the sound for a while when you need it.
+  web_ar:
+    title: >
+      Anytime, anywhere
+      WebAR technology,<br>
+      no app installation required
+    lead: >
+      If you have to install an app to view AR messages, not many people will.
+      FiguAR Message uses WebAR technology to show AR messages through a web browser without having to install the app.
+      It made it easier to create links and share them with people.
+  social:
+    title: >
+      A stepping stone into the other channels<br>
+      Social Link Buttons
+    lead: >
+      It is also a good idea to use FiguAR Message as a base for connecting to other social channels.
+      Not only on the homepage, but also on blogs, Twitter, Facebook, Instagram, YouTube, even phone numbers, e-mail, or KakaoTalk.
+    label: Available Services
+  comparison:
+    title: >
+      No more SMS or MMS.<br>
+      It's time to use AMS.
+    lead: ""
+  pricing:
+    title: Try it now
+    lead: ""
+    currency: $
+    purchase: Purchase
+    plans:
+      -
+        name: Starter
+        price: 30
+        subscription: Monthly Subscription
+        features:
+          - 1 shooting/year
+          - 600 pageviews/month
+      -
+        name: Basic
+        price: 100
+        subscription: Monthly Subscription
+        features:
+          - 1 shooting/month
+          - 2,000 pageviews/month
+      -
+        badge: Featured
+        name: Pro
+        price: 300
+        subscription: Monthly Subscription
+        features:
+          - 2 shootings/month
+          - 6,000 pageviews/month
+      -
+        name: Enterprise
+        price: 500
+        subscription: Monthly Subscription
+        features:
+          - 3 shootings/month
+          - 10,000 pageviews/month
+  purchase_modal:
+    title: Please leave a message for FiguAR.
+    lead: If you leave a contact with FiguAR, we will reply to you with more information regarding the payment of the service.
+
+studio:
+  hero:
+    subtitle: AR twin everywhere
+    title: FiguAR Studio
+    lead: >
+      Meet FiguAR Studio, a space where anyone can easily create their own AR twin.
+      You can use AR as a means of communication by naturally learning 3D printing while making your own figures and sending AR messages.
+  process:
+    title: >
+      High-quality AR twin<br>
+      with a single shooting
+    lead: >
+      Make an AR twin that looks just like me, my AR avatar that you wanted to have at least once. A single, synchronized 96 camera shutters will finish 3D scanning in no time.
+      While the studio's high-performance computer combines 96 20-megapixel photos, if you have a quick chat, you'll be waiting for the completed AR twin.
+    specs:
+      -
+        aos_delay: 100
+        title: Cameras
+        start_value: 0
+        end_value: 96
+      -
+        aos-delay: 200
+        title: Resolution of Each Camera
+        start_value: 0
+        end_value: 20
+        suffix: MP
+      -
+        aos-delay: 300
+        title: Shooting Duration
+        start_value: 50
+        end_value: 0.5
+        decimal_places: 1
+        suffix: " sec"
+      -
+        aos-delay: 400
+        title: 3D Building Duration
+        start_value: 500
+        end_value: 5
+        suffix: " min"
+  animation:
+    title: >
+      3000+ animations<br>
+      powered by FiguAR
+    lead: >
+      From walking and running movements to the latest K-Pop dance, give AR Twin a life.
+      With 3000+ animation presets pre-designed by FiguAR, animation can be easily applied to AR Twin with a single click.
+    videos:
+      -
+        icon: "/assets/img/icons/theme/communication/chat-2.svg"
+        title: Introducing
+        src: "/assets/videos/animation-introducing.mov"
+      -
+        icon: "/assets/img/icons/theme/communication/group.svg"
+        title: Korean Deep Bow
+        src: "/assets/videos/animation-deepbow.mov"
+  kids:
+    title: >
+      A favorite<br>
+      of the children
+    lead: >
+      Give the children an AR twin each.
+      It can be a fun and exciting experience for children just by watching another birth process that resembles them.
+      While children play with AR Twin, they can develop an eye for AR technology.
+  usage:
+    title: My pride, my awesome AR twin
+    lead: >
+      It's a waste to watch AR twin alone.
+      Using FiguAR Message and Sticker, you can easily send AR messages and create images using AR stickers.
+    outlets:
+      -
+        icon: "/assets/img/icons/theme/communication/adress-book-2.svg"
+        title: FiguAR Message
+        lead: From simple self-introduction to complex product promotions, capture customers' hearts with DiguAR Message.
+        detail_path: "/message/"
+      -
+        icon: "/assets/img/icons/theme/communication/sending.svg"
+        title: FiguAR Sticker
+        lead: You can use FiguAR Sticker to create simple images using AR Twin.
+      -
+        icon: "/assets/img/icons/theme/shopping/box-2.svg"
+        title: 3D Model File
+        lead: For professionals, the 3D model files provided by FiguAR Studio can be leveraged to the full range of avatars.
 
 customer_stories:
   hero:
