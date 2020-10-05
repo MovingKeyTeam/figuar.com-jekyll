@@ -113,14 +113,14 @@ message:
     plans:
       -
         name: Starter
-        price: 30
+        price: 29
         subscription: Monthly Subscription
         features:
           - 1 shooting/year
           - 600 pageviews/month
       -
         name: Basic
-        price: 100
+        price: 99
         subscription: Monthly Subscription
         features:
           - 1 shooting/month
@@ -128,14 +128,14 @@ message:
       -
         badge: Featured
         name: Pro
-        price: 300
+        price: 299
         subscription: Monthly Subscription
         features:
           - 2 shootings/month
           - 6,000 pageviews/month
       -
         name: Enterprise
-        price: 500
+        price: 499
         subscription: Monthly Subscription
         features:
           - 3 shootings/month
