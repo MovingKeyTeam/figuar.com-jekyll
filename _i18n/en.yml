@@ -309,22 +309,22 @@ about:
     events:
       -
         date: Jul 2015
-        title: 회사 설립
+        title: Founded the compnay
       -
         date: Oct 2015
-        title: 삼성벤처투자 투자유치
+        title: Attracted investment from Samsung Venture Investment
       -
         date: Dec 2017
-        title: 2017 차세대미디어대전 과기정통부장관상
+        title: Won the prize from the Ministry of Science and IC at Next Media Korea 2017
       -
         date: Aug 2018
-        title: 기술보증기금 벤처기업 등록
+        title: Registered as a venture company by KOTEC
       -
         date: Nov 2019
-        title: NH농협은행 올원뱅크 AR 송금 알림 솔루션 공급
+        title: Supplied AR solution for NongHyup Bank
       -
         date: Apr 2020
-        title: 제21대 국회의원 선거 후보용 AR 홍보 페이지 제공
+        title: Provided AR promotion websites for the politicians in South Korea
 
 contact:
       hero:
