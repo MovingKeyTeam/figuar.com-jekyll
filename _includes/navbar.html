@@ -2,36 +2,62 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-white" data-sticky="top">
 		<div class="container">
 			<a class="navbar-brand fade-page" href="{{ '/' | prepend: site.baseurl }}">
-				<img src="/assets/img/figuar-logo.svg" alt="Leap" />
+				<img src="/assets/img/figuar-logo.svg" alt="FiguAR" />
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-				<img class="icon navbar-toggler-open" src="/assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
-				<img class="icon navbar-toggler-close" src="/assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
-			</button>
-			<div class="collapse navbar-collapse justify-content-end">
-				<div class="py-2 py-lg-0">
-					<ul class="navbar-nav">
-						<li class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">{% translate nav.product %}</a>
-							<div class="dropdown-menu row">
-								<div class="col-auto" data-dropdown-content>
-									<div class="dropdown-grid-menu">
-										<a href="{{ '/message/' | prepend: site.baseurl }}" class="dropdown-item fade-page">{% translate nav.figuar_message %}</a>
-										<a href="{{ '/studio/' | prepend: site.baseurl }}" class="dropdown-item fade-page">{% translate nav.figuar_studio %}</a>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a href="{{ '/customer-stories/' | prepend: site.baseurl }}" class="nav-link">{% translate nav.customer_stories %}</a>
-						</li>
-						<li class="nav-item">
-							<a href="{{ '/about/' | prepend: site.baseurl }}" class="nav-link">{% translate nav.about %}</a>
-						</li>
-					</ul>
-				</div>
-				<a href="{{ '/contact/' | prepend: site.baseurl }}" class="btn btn-primary ml-lg-3">{% translate nav.contact %}</a>
-			</div>
+            <div class="d-flex align-items-center order-lg-3">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">
+                        {{ site.translations[site.lang].global.language[site.lang] }}
+                        <img class="icon" src="/assets/img/icons/interface/arrow-caret.svg" alt="arrow-caret interface icon" data-inject-svg />
+                    </button>
+                    <div class="dropdown-menu dropdown-content">
+                        {% for language in site.languages %}
+                            {% if site.default_locale_in_subfolder == false and forloop.first == false %}
+                                {% capture language_path %}/{{ language }}{% endcapture %}
+                            {% endif %}
+                            <a
+                                class="dropdown-item{% if language == site.lang %} disabled{% endif %}"
+                                href="{{ site.baseurl_root }}{{ language_path }}{{ page.url}}"
+                            >
+                                {{ site.translations[site.lang].global.language[language] }}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <a href="{{ '/contact/' | prepend: site.baseurl }}" class="btn btn-primary d-none d-lg-block">{% translate nav.contact %}</a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <img class="icon navbar-toggler-open" src="/assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+                        <img class="icon navbar-toggler-close" src="/assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-between order-lg-2">
+                <div class="py-2 py-lg-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">{% translate nav.product %}</a>
+                            <div class="dropdown-menu row">
+                                <div class="col-auto" data-dropdown-content>
+                                    <div class="dropdown-grid-menu">
+                                        <a href="{{ '/message/' | prepend: site.baseurl }}" class="dropdown-item fade-page">{% translate nav.figuar_message %}</a>
+                                        <a href="{{ '/studio/' | prepend: site.baseurl }}" class="dropdown-item fade-page">{% translate nav.figuar_studio %}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ '/customer-stories/' | prepend: site.baseurl }}" class="nav-link">{% translate nav.customer_stories %}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ '/about/' | prepend: site.baseurl }}" class="nav-link">{% translate nav.about %}</a>
+                        </li>
+                        <li class="nav-item d-block d-lg-none">
+                            <a href="{{ '/contact/' | prepend: site.baseurl }}" class="btn btn-primary">{% translate nav.contact %}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 		</div>
 	</nav>
 </div>

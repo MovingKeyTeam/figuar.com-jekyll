@@ -7,6 +7,9 @@ global:
   home: Home
   hq_address: "#404-3, A-dong, 330, Seongam-ro, Mapo-gu, Seoul, South Korea"
   hq_address_suffix: "(Sangam-dong, DMC High-tech Industrial Center)"
+  language:
+    en: English
+    ko: Korean
   learn_more: Learn more
   location: Location
   phone: Phone

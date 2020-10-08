@@ -6,6 +6,9 @@ global:
   home: 홈
   hq_address: "서울특별시 마포구 성암로 330, A동 404-3호"
   hq_address_suffix: "(상암동, DMC첨단산업센터)"
+  language:
+    en: 영어
+    ko: 한국어
   learn_more: 더 알아보기
   location: 위치
   phone: 전화
