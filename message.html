@@ -189,7 +189,7 @@ permalink: /message/
 					<tbody>
 						<tr>
 							<th scope="row">
-								<span class="h6 mb-0 d-block">텍스트 전송</span>
+								<span class="h6 mb-0 d-block">{% translate message.comparison.table.sending_texts.title %}</span>
 								<span class="text-small text-muted"></span>
 							</th>
 							<td>
@@ -210,7 +210,7 @@ permalink: /message/
 						</tr>
 						<tr>
 							<th scope="row">
-								<span class="h6 mb-0 d-block">비디오 전송</span>
+								<span class="h6 mb-0 d-block">{% translate message.comparison.table.sending_videos.title %}</span>
 								<span class="text-small text-muted"></span>
 							</th>
 							<td></td>
@@ -227,7 +227,7 @@ permalink: /message/
 						</tr>
 						<tr>
 							<th scope="row">
-								<span class="h6 mb-0 d-block">오디오 전송</span>
+								<span class="h6 mb-0 d-block">{% translate message.comparison.table.sending_audios.title %}</span>
 								<span class="text-small text-muted"></span>
 							</th>
 							<td></td>
@@ -244,7 +244,7 @@ permalink: /message/
 						</tr>
 						<tr>
 							<th scope="row">
-								<span class="h6 mb-0 d-block">AR 전송</span>
+								<span class="h6 mb-0 d-block">{% translate message.comparison.table.sending_ar.title %}</span>
 								<span class="text-small text-muted"></span>
 							</th>
 							<td></td>
@@ -257,21 +257,21 @@ permalink: /message/
 						</tr>
 						<tr>
 							<th scope="row">
-								<span class="h6 mb-0 d-block">용량</span>
+								<span class="h6 mb-0 d-block">{% translate message.comparison.table.size_limits.title %}</span>
 								<span class="text-small text-muted"></span>
 							</th>
-							<td>90 바이트</td>
-							<td>1MB</td>
-							<td class="bg-primary-alt">무제한</td>
+							<td>{% translate message.comparison.table.size_limits.sms %}</td>
+							<td>{% translate message.comparison.table.size_limits.mms %}</td>
+							<td class="bg-primary-alt">{% translate message.comparison.table.size_limits.ams %}</td>
 						</tr>
 						<tr>
 							<th scope="row">
-								<span class="h6 mb-0 d-block">가격</span>
+								<span class="h6 mb-0 d-block">{% translate message.comparison.table.pricing.title %}</span>
 								<span class="text-small text-muted"></span>
 							</th>
-							<td>22원/건</td>
-							<td>110원/건</td>
-							<td class="bg-primary-alt">55원/건</td>
+							<td>{% translate message.comparison.table.pricing.sms %}</td>
+							<td>{% translate message.comparison.table.pricing.mms %}</td>
+							<td class="bg-primary-alt">{% translate message.comparison.table.pricing.ams %}</td>
 						</tr>
 					</tbody>
 				</table>

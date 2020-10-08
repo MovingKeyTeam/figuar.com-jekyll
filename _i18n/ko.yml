@@ -105,6 +105,25 @@ message:
       진부한 SMS, MMS?<br>
       이제는 AMS.
     lead: ""
+    table:
+      sending_texts:
+        title: 텍스트 전송
+      sending_videos:
+        title: 비디오 전송
+      sending_audios:
+        title: 오디오 전송
+      sending_ar:
+        title: AR 전송
+      size_limits:
+        title: 용량 제한
+        sms: 90 바이트
+        mms: 1MB
+        ams: 무제한
+      pricing:
+        title: 가격
+        sms: 22원/건
+        mms: 110원/건
+        ams: 55원/건
   pricing:
     title: 지금 시작해 보세요
     lead: ""

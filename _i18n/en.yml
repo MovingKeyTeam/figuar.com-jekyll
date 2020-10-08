@@ -109,6 +109,25 @@ message:
       No more SMS or MMS.<br>
       It's time to use AMS.
     lead: ""
+    table:
+      sending_texts:
+        title: Sending texts
+      sending_videos:
+        title: Sending videos
+      sending_audios:
+        title: Sending audios
+      sending_ar:
+        title: Sending AR
+      size_limits:
+        title: Size limits
+        sms: 90 bytes
+        mms: 1MB
+        ams: Unlimited
+      pricing:
+        title: Pricing
+        sms: ￦22/msg
+        mms: ￦110/msg
+        ams: ￦55/msg
   pricing:
     title: Try it now
     lead: ""
