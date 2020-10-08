@@ -18,7 +18,43 @@
 		<div class="loader">
 	<div class="loading-animation"></div>
 </div>
- <div class="navbar-container bg-white">
+ <div>
+    
+        
+        <div class="language-banner navbar-container bg-primary-3" data-lang="ko" hidden>
+            <div class="container">
+                <div class="row justify-content-center align-items-center py-1">
+                    <div class="col-auto text-small text-light">
+                        <span>FiguAR.com은 한국어로도 사용하실 수 있습니다.</span>
+                        <a
+                            href="/studio/"
+                            class="btn btn-sm btn-white text-primary-3 ml-2"
+                        >
+                            언어 변경
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="language-banner navbar-container bg-primary-3" data-lang="en" hidden>
+            <div class="container">
+                <div class="row justify-content-center align-items-center py-1">
+                    <div class="col-auto text-small text-light">
+                        <span>FiguAR.com is also available in English.</span>
+                        <a
+                            href="/en/studio/"
+                            class="btn btn-sm btn-white text-primary-3 ml-2"
+                        >
+                            Change Language
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div> <div class="navbar-container bg-white">
 	<nav class="navbar navbar-expand-lg navbar-light bg-white" data-sticky="top">
 		<div class="container">
 			<a class="navbar-brand fade-page" href="/">
@@ -495,6 +531,8 @@
 <script>
 	window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
 </script>
+
+<script src="/assets/js/language-banner.js"></script>
 
 	</body>
 </html>
