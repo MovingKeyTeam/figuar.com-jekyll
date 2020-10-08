@@ -25,6 +25,7 @@ footer:
   banner: 저희와 함께 미래를 열어갈 파트너를 찾고 있습니다.
 
 home:
+  title: FiguAR
   hero:
     subtitle: 또 다른 나, AR 트윈
     title: FiguAR
@@ -328,6 +329,7 @@ about:
         title: 제21대 국회의원 선거 후보용 AR 홍보 페이지 제공
 
 contact:
+  title: 연락처
   hero:
     title: 직접 만나는 FiguAR 사람들
     lead: >

@@ -26,6 +26,7 @@ footer:
   banner: We are looking for a partner who will open the future with us.
 
 home:
+  title: FiguAR
   hero:
     subtitle: Another me, AR twin
     title: FiguAR
@@ -330,8 +331,9 @@ about:
         title: Provided AR promotion websites for the politicians in South Korea
 
 contact:
-      hero:
-        title: Meet FiguAR team
-        lead: >
-          Talk to the FiguAR team members.<br>
-          We are actively reviewing not only the voices of our customers but also investment and business partnership inquiries.
+  title: Contact
+  hero:
+    title: Meet FiguAR team
+    lead: >
+      Talk to the FiguAR team members.<br>
+      We are actively reviewing not only the voices of our customers but also investment and business partnership inquiries.
