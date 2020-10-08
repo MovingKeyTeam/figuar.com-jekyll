@@ -1,0 +1,360 @@
+global:
+  company_name: 주식회사 무빙키
+  contact_noun: 연락처
+  contact_verb: 문의하기
+  email: 이메일
+  home: 홈
+  hq_address: "서울특별시 마포구 성암로 330, A동 404-3호"
+  hq_address_suffix: "(상암동, DMC첨단산업센터)"
+  language:
+    en: 영어
+    ko: 한국어
+  learn_more: 더 알아보기
+  location: 위치
+  phone: 전화
+
+language_banner:
+  lead: FiguAR.com은 한국어로도 사용하실 수 있습니다.
+  action: 언어 변경
+
+nav:
+  product: 제품
+  figuar_message: FiguAR Message
+  figuar_studio: FiguAR Studio
+  customer_stories: 고객 사례
+  about: 회사 소개
+  contact: 연락하기
+
+footer:
+  banner: 저희와 함께 미래를 열어갈 파트너를 찾고 있습니다.
+
+home:
+  title: FiguAR
+  hero:
+    subtitle: 또 다른 나, AR 트윈
+    title: FiguAR
+    lead: >
+      나를 대신해 메시지를 전해주는 똑똑한 AR 피규어,<br>
+      FiguAR를 만나보세요.
+    demo_button: 360° 데모 체험하기
+    watch_button: 소개 영상 보기
+  message:
+    subtitle: 나와 고객을 잇는 인연의 연결점
+    title: FiguAR Message
+    lead: >
+      AR 트윈을 고객에게 보내 비대면 메시지를 실감나게 전해보세요.
+      고객의 안방부터 지구 반대편까지, 때와 장소를 가리지 않고 달려가는 든든한 파트너와 함께라면
+      더 많은 고객의 신뢰를 얻기도 수월해지죠.
+  studio:
+    subtitle: AR 트윈이 탄생하는 공간
+    title: FiguAR Studio
+    lead: >
+      나와 똑 닮은 AR 트윈을 생성하고 애니메이션을 입히는 모든 과정이 자동으로 이루어지는 공간, FiguAR Studio를 만나보세요.
+      간편하게 3D 피규어를 프린트하고 AR 메시지를 보내면서 실생활에 AR을 적용할 수 있습니다.
+
+message:
+  hero:
+    subtitle: 차세대 AR 메시지 서비스 (AMS)
+    title: FiguAR Message
+    lead: >
+      FiguAR Message는 사람이 직접 전달하듯이 오프라인 느낌 그대로 메시지를 생생하게 전달할 수 있는 차세대 AR 메시지 서비스(AMS)입니다.
+      FiguAR Studio가 제공하는 3,000+개의 움직이는 AR 메시지로 고객들의 마음도 움직여 보세요.
+  ar_twin:
+    title: >
+      AR 트윈이 전달하는<br>
+      신개념 AR 메시지
+    lead: >
+      매년 보내는 명절 인사나 생일 축하 메시지를 FiguAR Message로 특별하게 보내보세요.
+      간단한 인사부터 멋있는 축하 댄스까지.
+      FiguAR에서 제공하는 3,000+개의 애니메이션 프리셋 덕분에 AR 트윈이 표현 못할 동작은 없죠.
+    screenshots:
+      - src: "/assets/img/message/louis-introducing.png"
+      - src: "/assets/img/message/louis-deepbow.png"
+      - src: "/assets/img/message/louis-hammerdance.png"
+      - src: "/assets/img/message/louis-paris.png"
+  voice:
+    badge: 추천
+    title: 직접 녹음해서 전하는 생생한 목소리
+    lead: >
+      AR 트윈에 목소리를 더해 활력을 불어넣어 보세요.
+      분위기를 리드할 잔잔한 배경음악을 깔아두는 것도 물론 가능하죠.
+    features:
+      -
+        icon: "/assets/img/icons/theme/media/volume-half.svg"
+        title: 음성 녹음
+        lead: 함께 제공되는 FiguAR 앱을 통해 목소리를 녹음하면 애니메이션 재생 시 음성과 함께 자동 생성된 텍스트가 배너로 보여집니다.
+      -
+        icon: "/assets/img/icons/theme/media/add-music.svg"
+        title: 배경 음악
+        lead: 무료 음악들 중 원하는 것을 선택해 배경 음악으로 재생할 수 있습니다. 음소거 버튼이 있어 필요할 때 소리를 잠깐 꺼둘 수 있습니다.
+  web_ar:
+    title: >
+      앱 설치가 필요 없는<br>
+      WebAR 기술로<br>
+      어디서든 편하게
+    lead: >
+      AR 메시지를 보기 위해 앱을 설치해야 한다면 굳이 그럴 사람은 많지 않겠죠.
+      FiguAR Message는 WebAR 기술을 사용하여 앱을 설치하지 않고도 웹 브라우저를 통해 AR 메시지를 보여줄 수 있습니다.
+      덕분에 링크를 생성해 사람들에게 공유하기도 더욱 쉬워졌죠.
+  social:
+    title: >
+      다른 채널로의 징검다리,<br>
+      소셜 링크 버튼
+    lead: >
+      FiguAR Message를 다른 소셜 채널로 연결하기 위한 거점으로 사용하는 것도 좋은 방법입니다.
+      홈페이지는 물론 블로그, 트위터, 페이스북, 인스타그램, 유튜브, 심지어 전화번호나 이메일, 카카오톡 연결까지 모든 것이 가능하죠.
+    label: 연결 가능한 서비스
+  comparison:
+    title: >
+      진부한 SMS, MMS?<br>
+      이제는 AMS.
+    lead: ""
+    table:
+      sending_texts:
+        title: 텍스트 전송
+      sending_videos:
+        title: 비디오 전송
+      sending_audios:
+        title: 오디오 전송
+      sending_ar:
+        title: AR 전송
+      size_limits:
+        title: 용량 제한
+        sms: 90 바이트
+        mms: 1MB
+        ams: 무제한
+      pricing:
+        title: 가격
+        sms: 22원/건
+        mms: 110원/건
+        ams: 55원/건
+  pricing:
+    title: 지금 시작해 보세요
+    lead: ""
+    currency: ￦
+    purchase: 결제
+    plans:
+      -
+        name: 스타터
+        price: 3만
+        subscription: 월간 구독
+        features:
+          - 연 1회 촬영
+          - 월 600회 페이지뷰
+      -
+        name: 베이직
+        price: 10만
+        subscription: 월간 구독
+        features:
+          - 월 1회 촬영
+          - 월 2,000회 페이지뷰
+      -
+        badge: 추천
+        name: 프로
+        price: 30만
+        subscription: 월간 구독
+        features:
+          - 월 2회 촬영
+          - 월 6,000회 페이지뷰
+      -
+        name: 엔터프라이즈
+        price: 50만
+        subscription: 월간 구독
+        features:
+          - 월 3회 촬영
+          - 월 10,000회 페이지뷰
+  purchase_modal:
+    title: FiguAR에게 연락을 남겨주세요.
+    lead: FiguAR에게 연락을 남겨주시면 서비스 결제와 관련된 자세한 정보를 회신해 드리겠습니다.
+
+studio:
+  hero:
+    subtitle: 1인 1 AR 트윈 시대를 열다
+    title: FiguAR Studio
+    lead: >
+      누구나 손쉽게 자신의 AR 트윈을 만들 수 있는 공간, FiguAR Studio를 만나보세요.
+      자신만의 피규어를 만들면서 3D 프린팅을 자연스럽게 익히고, AR 메시지를 만들어 보내면서 AR을 소통의 수단으로 활용할 수 있습니다.
+  process:
+    title: >
+      찰칵 한 번으로 만드는<br>
+      고퀄리티 AR 트윈
+    lead: >
+      한 번쯤 갖고 싶었던 나의 AR 아바타, 나를 똑 닮은 AR 트윈을 만들어 보세요. 동기화되어 작동하는 96대의 카메라 셔터 한 방이면 3D 스캐닝은 순식간에 끝나버리죠.<br />
+      스튜디오의 고성능 컴퓨터가 2000만 화소의 사진 96장을 조합하는 동안 잠깐의 담소를 나누다 보면 어느새 완성된 AR 트윈이 기다리고 있을 겁니다.
+    specs:
+      -
+        aos_delay: 100
+        title: 카메라 대수
+        start_value: 0
+        end_value: 96
+      -
+        aos-delay: 200
+        title: 개별 카메라 해상도
+        start_value: 0
+        end_value: 20
+        suffix: MP
+      -
+        aos-delay: 300
+        title: 촬영 소요 시간
+        start_value: 50
+        end_value: 0.5
+        decimal_places: 1
+        suffix: 초
+      -
+        aos-delay: 400
+        title: 모델 빌드 시간
+        start_value: 500
+        end_value: 5
+        suffix: 분
+  animation:
+    title: >
+      FiguAR에서 제공하는<br>
+      3000+개 애니메이션
+    lead: >
+      걷고 뛰는 동작부터 최신 K-Pop 댄스까지, AR 트윈에 생명력을 불어넣어 보세요.<br>
+      FiguAR가 미리 설계한 3000+개의 애니메이션 프리셋이면 클릭 한 번으로 간편하게 AR 트윈에 애니메이션을 적용할 수 있습니다.
+    videos:
+      -
+        icon: "/assets/img/icons/theme/communication/chat-2.svg"
+        title: 소개
+        src: "/assets/videos/animation-introducing.mov"
+      -
+        icon: "/assets/img/icons/theme/communication/group.svg"
+        title: 큰절
+        src: "/assets/videos/animation-deepbow.mov"
+  kids:
+    title: >
+      아이들이 더 좋아하는<br>
+      FiguAR Studio
+    lead: >
+      아이들에게 AR 트윈을 하나씩 선물해 보세요.
+      자신과 닮은 또다른 나의 탄생 과정을 지켜보는 것만으로도 아이들에게 신나고 즐거운 경험이 될 수 있습니다.
+      아이들이 AR 트윈을 갖고 노는 사이 4차 산업 혁명의 핵심 기술인 AR에 대한 안목도 기를 수 있죠.
+  usage:
+    title: 나의 자랑, 나의 멋진 AR 트윈
+    lead: >
+      이렇게 만든 AR 트윈, 혼자서만 보기는 아깝죠.
+      FiguAR Message와 Sticker를 사용하면 손쉽게 AR 메시지를 보내고 AR 스티커를 사용한 영상을 만들 수 있습니다.
+    outlets:
+      -
+        icon: "/assets/img/icons/theme/communication/adress-book-2.svg"
+        title: FiguAR Message
+        lead: 간단한 자기 소개부터 복잡한 상품 홍보까지, FiguAR Message로 고객들의 마음을 사로잡아 보세요.
+        detail_path: "/message/"
+      -
+        icon: "/assets/img/icons/theme/communication/sending.svg"
+        title: FiguAR Sticker
+        lead: FiguAR Sticker를 사용하면 AR 트윈을 활용한 간단한 영상을 만들 수 있습니다.
+      -
+        icon: "/assets/img/icons/theme/shopping/box-2.svg"
+        title: 3D 모델 파일
+        lead: 전문가의 경우 FiguAR Studio에서 제공하는 3D 모델 파일을 활용하여 아바타를 무궁무진하게 활용할 수 있습니다.
+
+customer_stories:
+  hero:
+    title: 고객 사례
+    lead: >
+      국내 유수의 기업 및 단체들이 어떻게 FiguAR를 사용해서<br>
+      고객들을 사로잡고 홍보 전략을 성공적으로 이끌어냈는지 확인해보세요.
+  stories:
+    -
+      thumbnail: "/assets/img/customer-stories/thumbnails/allonebank.png"
+      company_url: "http://www.nhbank.com/"
+      company_logo: "/assets/img/customer-stories/logos/nhbank-ko.svg"
+      description: >
+        NH농협은행은 자사의 모바일 뱅킹 앱 올원뱅크의 대대적인 개편에서 FiguAR의 WebAR 기술을 사용하여 AR 송금 알림 서비스를 도입,
+        올원프렌즈의 귀여운 애니메이션과 함께 금융 거래에 재미 요소를 더하며 성공적으로 업데이트를 출시할 수 있었습니다.
+      actions:
+        -
+          title: 보도자료
+          url: "http://www.nhfngroup.com/user/indexSub.do?codyMenuSeq=884083449&siteId=nhfngroup&boardId=4998475&command=albumView&boardSeq=5013123"
+        -
+          title: 체험하기
+          url: "https://allonebank.nonghyup.com/servlet/NABCN0401R.view?encData=%27DW7tTWL%2B%2Fq6UhLGfRVMatTmKRYBVhj2ZClU8VAWw4%2BCEY%2F1d1u0HAuS74ItGbAD3r4loISyUbb0sN%2F3mRyuj%2BQdDkC7A%2B%2BgXA07QcRLD8ZF6DFoqgr7Lm72%2BNTM4kVRT1svpcLchc29d3%2BElLpZEsIYciir1%2BqLKgQ24JlqMYl6ALOZaADzIKsGIwE56ZLyaMx2wj5SyFsTWqy9osAKNzVGJOSLRmRWbsvMGBnXDulHqFWFK8SOz6lJ3NYfnY114TH%2BdmZgEoG80i6KwG5%2FT8P0TMvrA60Wql7ORiwN2C2g2yNWgcCwZNzCejmeKaCIokcm8hAfbiof2MisqZTK7qA&t=1"
+    -
+      thumbnail: "/assets/img/customer-stories/thumbnails/huh-kyungyoung.png"
+      company_url: "http://www.국가혁명배당금당.kr/"
+      company_logo: "/assets/img/customer-stories/logos/nrdparty.png"
+      description: >
+        국가혁명배당금당의 허경영 대표는 제21대 총선에서의 선거 유세를 위해 FiguAR Profile을 사용, 그의 트레이드 마크인 공중부양 기술을 AR로 선보이며 유권자들의 관심을 이끌어낼 수 있었습니다.
+      actions:
+        -
+          title: 체험하기
+          url: "https://figuar.com/huhkyungyoung-hurricane"
+    -
+      thumbnail: "/assets/img/customer-stories/thumbnails/cospaces.png"
+      company_url: "http://classvr.co.kr/"
+      company_logo: "/assets/img/customer-stories/logos/classvr.png"
+      description: >
+        전 세계의 초중고 교육 기관에 VR 콘텐츠를 공급하는 ClassVR은 Cospaces Edu를 활용한 VR 콘텐츠에서 아이들의 몰입감을 높이기 위해 FiguAR Studio와 연계, 아이들의 실사 캐릭터를 촬영 및 제공하여 VR 교육 시장의 저변 확대에 힘쓰고 있습니다.
+      actions:
+        -
+          title: 홈페이지 방문
+          url: "http://classvr.co.kr/"
+  
+about:
+  hero:
+    title: >
+      Recreate Reality,<br>
+      FiguAR
+    lead: >
+      저희는 2015년 창업한 IT 스타트업으로, Z세대를 위한 AR 서비스 브랜드
+      <b>FiguAR</b>를 런칭하여 AR 기술의 대중화에 주력하고 있습니다.
+  mission:
+    badge: 목표
+    title: 누구나 AR 콘텐츠를<br>제작할 수 있는 세상
+    lead_1: >
+      AR 기술이 대중화된지 10년이 지난 지금, 누구나 비디오를 손쉽게 만들 수 있는 세상이지만 아직도 AR 콘텐츠를 생산하는 일은 어렵게만 느껴집니다.
+      고가의 촬영 장비와 복잡한 편집 방법 때문에 AR 콘텐츠는 전문가만이 제작할 수 있다는 인식이 있었죠.
+    lead_2: >
+      FiguAR는 합리적인 가격과 간편한 방법으로 누구나 자신이 주인공이 되는 AR 콘텐츠를 제작하는 세상을 만들어가고 있습니다.
+      3D 게임의 주인공부터 온라인 쇼핑몰의 가상 피팅까지, FiguAR가 만들어갈 AR 세상을 기대해 주세요.
+  team:
+    title: 팀 멤버
+    members:
+      -
+        badge: 창업자
+        name: 서용창
+        role: CEO
+        avatar: https://media-exp1.licdn.com/dms/image/C5603AQHMEvFAzqPtDg/profile-displayphoto-shrink_400_400/0?e=1602720000&v=beta&t=2xNRYJUrMgYmDZZNqGy03Kz6alcm5o5Q3pr-p_u4nxo
+      -
+        name: Louis-Valentin Mazeau
+        role: CTO
+        avatar: https://media-exp1.licdn.com/dms/image/C5103AQFV8B98gY5TEg/profile-displayphoto-shrink_400_400/0?e=1602720000&v=beta&t=3gCpZo8Dgx_2tF0G0drfHwgBtoH7r2hZJaXof3aCOcY
+      -
+        name: Bertrand Ha
+        role: 연구 및 개발
+        avatar: https://media-exp1.licdn.com/dms/image/C5103AQFCTzPBEqyPGg/profile-displayphoto-shrink_400_400/0?e=1603929600&v=beta&t=pZMpjbJSScIC-k20hlx_SBZWvMGTIA6IqvCml8Q70EY
+      -
+        name: 김동규
+        role: 프론트엔드 개발
+        avatar: https://media-exp1.licdn.com/dms/image/C5103AQEZ7JpWzCSWBg/profile-displayphoto-shrink_400_400/0?e=1602720000&v=beta&t=jjBOU3gNvPWfc-3Z-lsqQOgTYmgOr0aybAJ3UrfNyoY
+  history:
+    title: 연혁
+    events:
+      -
+        date: 2015년 7월
+        title: 회사 설립
+      -
+        date: 2015년 10월
+        title: 삼성벤처투자 투자유치
+      -
+        date: 2017년 12월
+        title: 2017 차세대미디어대전 과기정통부장관상
+      -
+        date: 2018년 8월
+        title: 기술보증기금 벤처기업 등록
+      -
+        date: 2019년 11월
+        title: NH농협은행 올원뱅크 AR 송금 알림 솔루션 공급
+      -
+        date: 2020년 4월
+        title: 제21대 국회의원 선거 후보용 AR 홍보 페이지 제공
+
+contact:
+  title: 연락처
+  hero:
+    title: 직접 만나는 FiguAR 사람들
+    lead: >
+      FiguAR 팀원들과 이야기를 나눠보세요.<br>
+      고객들의 목소리는 물론 투자, 사업 제휴 문의도 적극적으로 검토하고 있습니다.

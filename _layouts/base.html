@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang }}">
 	<head>
+		<meta charset="utf-8" />
+		<title>{% if page.explicit_title %}{% translate page.explicit_title %}{% else %}{% if page.title %}{% translate page.title %} | {% endif %}{{ site.title }}{% endif %}</title>
 		{% include head.html %}
 	</head>
 	<body>
