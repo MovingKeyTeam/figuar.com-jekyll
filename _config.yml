@@ -37,7 +37,6 @@ social:
 destination: docs
 
 plugins:
-  - jekyll-feed
   - jekyll-multiple-languages-plugin
 
 languages: ["ko", "en"]
