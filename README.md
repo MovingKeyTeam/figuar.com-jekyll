@@ -3,6 +3,10 @@
 
 A landing page for [FiguAR](https://figuar.com/). Powered by [Jekyll](https://jekyllrb.com).
 
+## Stack
+- [Jekyll](https://jekyllrb.com/)
+- [Liquid](https://shopify.github.io/liquid/)
+
 ## Setup
 See [Installation](https://jekyllrb.com/docs/installation/).
 
