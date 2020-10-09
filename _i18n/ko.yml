@@ -1,5 +1,5 @@
 global:
-  company_name: 주식회사 무빙키
+  company_name: (주)무빙키
   contact_noun: 연락처
   contact_verb: 문의하기
   email: 이메일
@@ -37,7 +37,6 @@ home:
       나를 대신해 메시지를 전해주는 똑똑한 AR 피규어,<br>
       FiguAR를 만나보세요.
     demo_button: 360° 데모 체험하기
-    watch_button: 소개 영상 보기
   message:
     subtitle: 나와 고객을 잇는 인연의 연결점
     title: FiguAR Message
@@ -141,6 +140,7 @@ message:
         features:
           - 연 1회 촬영
           - 월 600회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614302
       -
         name: 베이직
         price: 10만
@@ -148,6 +148,7 @@ message:
         features:
           - 월 1회 촬영
           - 월 2,000회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614303
       -
         badge: 추천
         name: 프로
@@ -156,6 +157,7 @@ message:
         features:
           - 월 2회 촬영
           - 월 6,000회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
       -
         name: 엔터프라이즈
         price: 50만
@@ -163,6 +165,7 @@ message:
         features:
           - 월 3회 촬영
           - 월 10,000회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614305
   purchase_modal:
     title: FiguAR에게 연락을 남겨주세요.
     lead: FiguAR에게 연락을 남겨주시면 서비스 결제와 관련된 자세한 정보를 회신해 드리겠습니다.

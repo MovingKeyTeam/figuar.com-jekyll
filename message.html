@@ -311,7 +311,10 @@ permalink: /message/
 						</li>
 						{% endfor %}
 					</ul>
-					<button type="button" class="btn {% if plan['badge'] %}btn-primary{% else %}btn-outline-primary{% endif %}" data-toggle="modal" data-target="#purchase-modal">{% translate message.pricing.purchase %}</button>
+					<a
+						class="btn {% if plan['badge'] %}btn-primary{% else %}btn-outline-primary{% endif %}"
+						href="{{ plan['purchase_url'] }}"
+					>{% translate message.pricing.purchase %}</a>
 				</div>
 			</div>
 			{% endfor %}
