@@ -3,6 +3,19 @@
 
 A landing page for [FiguAR](https://figuar.com/). Powered by [Jekyll](https://jekyllrb.com).
 
+## Stack
+### Project Language
+- [Ruby](https://www.ruby-lang.org/)
+
+### Static Site Generator
+- [Jekyll](https://jekyllrb.com/)
+
+### Template Language
+- [Liquid](https://shopify.github.io/liquid/)
+
+### Plugins
+- [kurtsson/jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin)
+
 ## Setup
 See [Installation](https://jekyllrb.com/docs/installation/).
 
@@ -16,6 +29,3 @@ bundle exec jekyll serve
 ```
 bundle exec jekyll build
 ```
-
-## Plugins
-- [kurtsson/jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin)
