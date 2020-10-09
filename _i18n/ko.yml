@@ -186,25 +186,21 @@ studio:
       스튜디오의 고성능 컴퓨터가 2000만 화소의 사진 96장을 조합하는 동안 잠깐의 담소를 나누다 보면 어느새 완성된 AR 트윈이 기다리고 있을 겁니다.
     specs:
       -
-        aos_delay: 100
         title: 카메라 대수
         start_value: 0
         end_value: 96
       -
-        aos-delay: 200
         title: 개별 카메라 해상도
         start_value: 0
         end_value: 20
         suffix: MP
       -
-        aos-delay: 300
         title: 촬영 소요 시간
         start_value: 50
         end_value: 0.5
         decimal_places: 1
         suffix: 초
       -
-        aos-delay: 400
         title: 모델 빌드 시간
         start_value: 500
         end_value: 5

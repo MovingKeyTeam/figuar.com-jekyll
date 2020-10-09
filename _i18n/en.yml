@@ -1,5 +1,4 @@
 global:
-  address: Address
   company_name: MovingKey Co., Ltd.
   contact_noun: Contact
   contact_verb: Contact
@@ -190,25 +189,21 @@ studio:
       While the studio's high-performance computer combines 96 20-megapixel photos, if you have a quick chat, you'll be waiting for the completed AR twin.
     specs:
       -
-        aos_delay: 100
         title: Cameras
         start_value: 0
         end_value: 96
       -
-        aos-delay: 200
         title: Resolution of Each Camera
         start_value: 0
         end_value: 20
         suffix: MP
       -
-        aos-delay: 300
         title: Shooting Duration
         start_value: 50
         end_value: 0.5
         decimal_places: 1
         suffix: " sec"
       -
-        aos-delay: 400
         title: 3D Building Duration
         start_value: 500
         end_value: 5
