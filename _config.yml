@@ -33,6 +33,8 @@ social:
   instagram: movingkey
   github: figuar
 
+google_analytics: UA-180192832-1
+
 # Build settings
 destination: docs
 
