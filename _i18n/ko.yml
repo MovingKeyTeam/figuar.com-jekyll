@@ -140,6 +140,7 @@ message:
         features:
           - 연 1회 촬영
           - 월 600회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614302
       -
         name: 베이직
         price: 10만
@@ -147,6 +148,7 @@ message:
         features:
           - 월 1회 촬영
           - 월 2,000회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614303
       -
         badge: 추천
         name: 프로
@@ -155,6 +157,7 @@ message:
         features:
           - 월 2회 촬영
           - 월 6,000회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
       -
         name: 엔터프라이즈
         price: 50만
@@ -162,6 +165,7 @@ message:
         features:
           - 월 3회 촬영
           - 월 10,000회 페이지뷰
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614305
   purchase_modal:
     title: FiguAR에게 연락을 남겨주세요.
     lead: FiguAR에게 연락을 남겨주시면 서비스 결제와 관련된 자세한 정보를 회신해 드리겠습니다.

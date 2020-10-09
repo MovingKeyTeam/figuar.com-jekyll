@@ -144,6 +144,7 @@ message:
         features:
           - 1 shooting/year
           - 600 pageviews/month
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614302
       -
         name: Basic
         price: 99
@@ -151,6 +152,7 @@ message:
         features:
           - 1 shooting/month
           - 2,000 pageviews/month
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614303
       -
         badge: Featured
         name: Pro
@@ -159,6 +161,7 @@ message:
         features:
           - 2 shootings/month
           - 6,000 pageviews/month
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
       -
         name: Enterprise
         price: 499
@@ -166,6 +169,7 @@ message:
         features:
           - 3 shootings/month
           - 10,000 pageviews/month
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614305
   purchase_modal:
     title: Please leave a message for FiguAR.
     lead: If you leave a contact with FiguAR, we will reply to you with more information regarding the payment of the service.
