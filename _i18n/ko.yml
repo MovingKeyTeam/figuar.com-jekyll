@@ -129,6 +129,7 @@ message:
     lead: ""
     currency: ￦
     purchase: 결제
+    contact_sales: 영업팀 문의
     plans:
       -
         name: 스타터
