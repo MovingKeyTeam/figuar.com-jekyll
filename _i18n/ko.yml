@@ -13,10 +13,6 @@ global:
   location: 위치
   phone: 전화
 
-language_banner:
-  lead: FiguAR.com은 한국어로도 사용하실 수 있습니다.
-  action: 언어 변경
-
 nav:
   product: 제품
   figuar_message: FiguAR Message
