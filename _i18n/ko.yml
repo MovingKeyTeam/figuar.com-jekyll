@@ -58,6 +58,7 @@ message:
     lead: >
       FiguAR Message는 사람이 직접 전달하듯이 오프라인 느낌 그대로 메시지를 생생하게 전달할 수 있는 차세대 AR 메시지 서비스(AMS)입니다.
       FiguAR Studio가 제공하는 3,000+개의 움직이는 AR 메시지로 고객들의 마음도 움직여 보세요.
+    action_button: 가격 보기
   ar_twin:
     title: >
       AR 트윈이 전달하는<br>

@@ -62,6 +62,7 @@ message:
     lead: >
       FiguAR Message is a next-generation AR message service (AMS) that can deliver messages as realistically as they are offline.
       Touch your customers' minds with 3,000+ animating AR messages provided by FiguAR Studio.
+    action_button: See Pricing
   ar_twin:
     title: >
       New-normal AR message<br>
