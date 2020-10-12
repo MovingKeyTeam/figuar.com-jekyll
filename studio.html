@@ -14,7 +14,7 @@ permalink: /studio/
 				<div class="my-4">
 					<p class="lead">{% translate studio.hero.lead %}</p>
 				</div>
-				<a href="/contact/" class="btn btn-lg btn-primary">{% translate global.contact_verb %}</a>
+				<a href="{{ '/contact/' | prepend: site.baseurl }}" class="btn btn-lg btn-primary">{% translate global.contact_verb %}</a>
 			</div>
 			<div class="col-lg-6 text-center" data-aos="fade-left">
 				<img src="/assets/img/home/studio-frame.jpg" alt="Image" />
