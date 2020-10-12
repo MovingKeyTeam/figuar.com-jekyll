@@ -131,7 +131,8 @@ message:
     title: Try it now
     lead: ""
     currency: $
-    purchase: Purchase
+    purchase: Purchase at NAVER
+    contact_sales: Contact Sales
     plans:
       -
         name: Starter
