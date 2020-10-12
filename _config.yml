@@ -19,9 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: FiguAR
-description: Another me, AR twin FiguAR
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: A next-generation AR platform, FiguAR
+url: "https://about.figuar.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 phone: +82 10-3030-5050
 email: contact@figuar.com
@@ -33,11 +32,12 @@ social:
   instagram: movingkey
   github: figuar
 
+google_analytics: UA-180192832-1
+
 # Build settings
 destination: docs
 
 plugins:
-  - jekyll-feed
   - jekyll-multiple-languages-plugin
 
 languages: ["ko", "en"]
