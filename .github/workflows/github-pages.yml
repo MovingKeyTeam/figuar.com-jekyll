@@ -1,18 +1,17 @@
 name: GitHub Pages
+
 on:
-  page_build
-  
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
-  see-page-build-payload:
-    name: See page build payload
+  build:
+    name: Build
     runs-on: ubuntu-latest
-    steps:      
-      - name: Check status
-        run: |
-          import os
-          status, errormsg = os.getenv('STATUS'), os.getenv('ERROR')
-          assert status == 'built', 'There was an error building the page on GitHub pages.\n\nStatus: {}\n\nError messsage: {}'.format(status, errormsg)
-        shell: python
+    steps:
+      - uses: actions/checkout@v2
+      - uses: helaili/jekyll-action@2.0.1
         env:
-          STATUS: ${{ github.event.build.status }}
-          ERROR: ${{ github.event.build.error.message }}
+          JEKYLL_PAT: ${{ github.token }}
