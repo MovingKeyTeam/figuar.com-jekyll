@@ -34,9 +34,6 @@ social:
 
 google_analytics: UA-180192832-1
 
-# Build settings
-destination: docs
-
 plugins:
   - jekyll-multiple-languages-plugin
 
@@ -47,9 +44,6 @@ sass:
   sass_dir: /assets/css/_sass
 naver_maps:
   client_id: lc283aiiwo
-
-exclude:
-  - docs # Prevent `docs` to be compiled recursively in languages directory
 
 # Exclude from processing.
 # The following items will not be processed, by default.
