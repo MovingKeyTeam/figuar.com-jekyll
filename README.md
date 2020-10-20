@@ -16,6 +16,9 @@ A landing page for [FiguAR](https://figuar.com/). Powered by [Jekyll](https://je
 ### Plugins
 - [kurtsson/jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin)
 
+### CI
+- [helaili/jekyll-action](https://github.com/helaili/jekyll-action) (GitHub Actions)
+
 ## Setup
 See [Installation](https://jekyllrb.com/docs/installation/).
 
