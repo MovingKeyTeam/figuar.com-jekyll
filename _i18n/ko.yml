@@ -133,19 +133,21 @@ message:
     plans:
       -
         name: 스타터
-        price: 3만
+        price: 5만
         subscription: 월간 구독
         features:
           - 연 1회 촬영
-          - 월 600회 페이지뷰
+          - 1종 애니메이션
+          - 월 500회 페이지뷰
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614302
       -
         name: 베이직
         price: 10만
         subscription: 월간 구독
         features:
-          - 월 1회 촬영
-          - 월 2,000회 페이지뷰
+          - 분기 1회 촬영
+          - 3종 애니메이션
+          - 월 1,000회 페이지뷰
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614303
       -
         badge: 추천
@@ -153,16 +155,17 @@ message:
         price: 30만
         subscription: 월간 구독
         features:
-          - 월 2회 촬영
-          - 월 6,000회 페이지뷰
+          - 월 1회 촬영
+          - 10종 애니메이션
+          - 월 3,000회 페이지뷰
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
       -
         name: 엔터프라이즈
         price: 50만
         subscription: 월간 구독
         features:
-          - 월 3회 촬영
-          - 월 10,000회 페이지뷰
+          - 월 2회 촬영
+          - 월 5,000회 페이지뷰
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614305
   purchase_modal:
     title: FiguAR에게 연락을 남겨주세요.
