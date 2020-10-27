@@ -160,7 +160,7 @@ message:
           - 월 1,000회 표출
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
       -
-        name: 프리미어
+        name: 엔터프라이즈
         price: 30만
         subscription: 연간 구독
         features:
