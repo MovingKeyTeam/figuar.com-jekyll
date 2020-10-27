@@ -123,7 +123,7 @@ message:
         title: 가격
         sms: 22원/건
         mms: 110원/건
-        ams: 55원/건
+        ams: 110원/건
   pricing:
     title: 지금 시작해 보세요
     lead: ""
