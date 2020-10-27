@@ -165,7 +165,7 @@ message:
         subscription: 연간 구독
         features:
           - 월 1회 촬영
-          - 애니메이션 10종
+          - 애니메이션 7종
           - 월 3,000회 표출
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614305
   purchase_modal:
