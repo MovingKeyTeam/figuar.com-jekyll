@@ -127,13 +127,13 @@ message:
   pricing:
     title: 지금 시작해 보세요
     lead: ""
-    currency: ￦
+    currency: 월￦
     purchase: 결제
     contact_sales: 영업팀 문의
     plans:
       -
         name: 스타터
-        price: 3만/월
+        price: 3만
         subscription: 연간 구독
         features:
           - 연 1회 촬영
@@ -142,7 +142,7 @@ message:
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614302
       -
         name: 베이직
-        price: 5만/월
+        price: 5만
         subscription: 연간 구독
         features:
           - 반기 1회 촬영
@@ -152,7 +152,7 @@ message:
       -
         badge: 추천
         name: 프로
-        price: 10만/월
+        price: 10만
         subscription: 연간 구독
         features:
           - 분기 1회 촬영
@@ -161,7 +161,7 @@ message:
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
       -
         name: 프리미어
-        price: 30만/월
+        price: 30만
         subscription: 연간 구독
         features:
           - 월 1회 촬영
