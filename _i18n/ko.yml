@@ -136,8 +136,8 @@ message:
         price: 5만
         subscription: 월간 구독
         features:
-          - 연 1회 촬영
-          - 애니메이션 1종
+          - 반기 1회 촬영
+          - 애니메이션 3종
           - 월 500회 페이지뷰
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614302
       -
@@ -146,7 +146,7 @@ message:
         subscription: 월간 구독
         features:
           - 분기 1회 촬영
-          - 애니메이션 3종
+          - 애니메이션 5종
           - 월 1,000회 페이지뷰
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614303
       -
