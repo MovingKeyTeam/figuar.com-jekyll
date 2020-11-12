@@ -155,7 +155,7 @@ message:
         price: 30만
         subscription: 연간 구독
         features:
-          - 분기 1회 촬영/편집
+          - 분기 1회 촬영/수정
           - 애니메이션 5종
           - 월 1,500회 표출
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
