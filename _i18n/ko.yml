@@ -1,5 +1,5 @@
 global:
-  company_name: (주)무빙키
+  company_name: (주)피규아
   contact_noun: 연락처
   contact_verb: 문의하기
   email: 이메일
@@ -133,40 +133,40 @@ message:
     plans:
       -
         name: 스타터
-        price: 3만
+        price: 5만
         subscription: 연간 구독
         features:
           - 연 1회 촬영
           - 애니메이션 1종
-          - 월 300회 표출
+          - 월 250회 표출
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614302
       -
         name: 베이직
-        price: 5만
+        price: 10만
         subscription: 연간 구독
         features:
-          - 반기 1회 촬영
+          - 반기 1회 촬영/수정
           - 애니메이션 3종
           - 월 500회 표출
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614303
       -
         badge: 추천
         name: 프로
-        price: 10만
-        subscription: 연간 구독
-        features:
-          - 분기 1회 촬영
-          - 애니메이션 5종
-          - 월 1,000회 표출
-        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
-      -
-        name: 엔터프라이즈
         price: 30만
         subscription: 연간 구독
         features:
-          - 월 1회 촬영
+          - 분기 1회 촬영/편집
+          - 애니메이션 5종
+          - 월 1,500회 표출
+        purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614304
+      -
+        name: 엔터프라이즈
+        price: 50만
+        subscription: 연간 구독
+        features:
+          - 월 1회 촬영/수정
           - 애니메이션 7종
-          - 월 3,000회 표출
+          - 월 2,500회 표출
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614305
   purchase_modal:
     title: FiguAR에게 연락을 남겨주세요.
