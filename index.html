@@ -33,7 +33,7 @@ permalink: /
 				<h3>{% translate home.message.subtitle %}</h3>
 				<h3 class="display-4">{% translate home.message.title %}</h3>
 				<p class="lead">{% translate home.message.lead %}</p>
-				<a href="/message/" class="lead hover-arrow">{% translate global.learn_more %}</a>
+				<a href="{{ '/message/' | prepend: site.baseurl }}" class="lead hover-arrow">{% translate global.learn_more %}</a>
 			</div>
 			<div class="col-xl-5 col-md-6" data-aos="fade-right">
 				<div class="rounded shadow-lg layer-1">
@@ -66,7 +66,7 @@ permalink: /
 						<h3>{% translate home.studio.subtitle %}</h3>
 						<h3 class="display-4">{% translate home.studio.title %}</h3>
 						<p class="lead">{% translate home.studio.lead %}</p>
-						<a href="/studio/" class="lead hover-arrow">{% translate global.learn_more %}</a>
+						<a href="{{ '/studio/' | prepend: site.baseurl }}" class="lead hover-arrow">{% translate global.learn_more %}</a>
 					</div>
 				</div>
 			</div>
