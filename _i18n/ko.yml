@@ -31,7 +31,7 @@ home:
     title: MyTwin.ai
     lead: >
       나를 대신해 메시지를 전해주는 똑똑한 AR 트윈,<br>
-      MyTwin.ai를 만나보세요.
+      MyTwin.ai을 만나보세요.
     demo_button: 360° 데모 체험하기
   message:
     subtitle: 나와 고객을 잇는 인연의 연결점
@@ -49,10 +49,10 @@ home:
 
 message:
   hero:
-    subtitle: 차세대 AR 트윈 메시지 서비스 (AMS)
-    title: AR MyTwin.ai Message
+    subtitle: 차세대 AR 메시지 서비스 (AMS)
+    title: MyTwin.ai Message
     lead: >
-      AR MyTwin.ai Message는 사람이 직접 전달하듯이 오프라인 느낌 그대로 메시지를 생생하게 전달할 수 있는 차세대 AR 메시지 서비스(AMS)입니다.
+      MyTwin.ai Message는 사람이 직접 전달하듯이 오프라인 느낌 그대로 메시지를 생생하게 전달할 수 있는 차세대 AR 메시지 서비스(AMS)입니다.
       MyTwin.ai Studio가 제공하는 3,000+개의 움직이는 AR 메시지로 고객들의 마음도 움직여 보세요.
     action_button: 가격 보기
   ar_twin:
