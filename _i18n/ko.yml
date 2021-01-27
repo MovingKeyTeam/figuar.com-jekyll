@@ -30,7 +30,7 @@ home:
     subtitle: 또 다른 나, AR 트윈
     title: MyTwin.ai
     lead: >
-      나를 대신해 메시지를 전해주는 똑똑한 AR 트윈,<br>
+      나를 대신해 메시지를 전해주는 인공지능 AR 트윈,<br>
       MyTwin.ai을 만나보세요.
     demo_button: 360° 데모 체험하기
   message:
@@ -45,7 +45,7 @@ home:
     title: MyTwin.ai Studio
     lead: >
       나와 똑 닮은 AR 트윈을 생성하고 애니메이션을 입히는 모든 과정이 자동으로 이루어지는 공간, MyTwin.ai Studio를 만나보세요.
-      간편하게 3D 피규어를 프린트하고 AR 메시지를 보내면서 실생활에 AR을 적용할 수 있습니다.
+      간편하게 3D 트윈을 생성하고 AR 메시지를 보내면서 실생활에 AR을 활용할 수 있습니다.
 
 message:
   hero:
