@@ -314,7 +314,7 @@ about:
         badge: Founder
         name: Yongchang Seo
         role: CEO
-        avatar: https://media-exp1.licdn.com/dms/image/C5603AQHMEvFAzqPtDg/profile-displayphoto-shrink_400_400/0?e=1608768000&v=beta&t=7HCCjCmzHtmkpCxk2DsxxFR4zObsCPcxjb48KNaiyqI
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_yongchang_seo.png
       -
         name: Louis-Valentin Mazeau
         role: CTO
@@ -322,11 +322,11 @@ about:
       -
         name: Bertrand Ha
         role: Research & Development
-        avatar: https://media-exp1.licdn.com/dms/image/C5103AQFCTzPBEqyPGg/profile-displayphoto-shrink_100_100/0?e=1610582400&v=beta&t=jSdLdc40W6IbhuDrPwIOGt-DYb0pDcIy48QmM6G8bKA
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_bertrand_ha.png
       -
         name: Dongkyu Kim
         role: Front-end Development
-        avatar: https://media-exp1.licdn.com/dms/image/C5103AQEZ7JpWzCSWBg/profile-displayphoto-shrink_400_400/0?e=1608768000&v=beta&t=XAUmOo6UBnwrfryKuWVzrhsHBJ-x1GAR7JFEkJ9S2yE
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_dongkyu_kim.png
   history:
     title: History
     events:
