@@ -27,10 +27,10 @@ footer:
 home:
   title: MyTwin.ai
   hero:
-    subtitle: 또 다른 나, 나의 AR 아바타
+    subtitle: 또 다른 나, 인공지능 AR 트윈
     title: MyTwin.ai
     lead: >
-      나를 대신해 AR 명함메시지를 전하는 인공지능 AR 트윈,<br>
+      나를 대신해 AR 명함메시지를 전하는 나의 AR 아바타,<br>
       MyTwin.ai을 만나보세요.
     demo_button: 360° 데모 체험하기
   message:
