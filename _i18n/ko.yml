@@ -44,7 +44,7 @@ home:
     subtitle: AR 트윈이 탄생하는 공간
     title: MetaTwins Studio
     lead: >
-      나와 똑 닮은 AR 트윈을 생성하고 애니메이션을 입히는 모든 과정이 자동으로 이루어지는 공간, MyTwin.ai Studio를 만나보세요.
+      나와 똑 닮은 AR 트윈을 생성하고 애니메이션을 입히는 모든 과정이 자동으로 이루어지는 공간, MetaTwins Studio를 만나보세요.
       간편하게 3D 트윈을 생성하고 AR 메시지를 보내면서 실생활에 AR을 활용할 수 있습니다.
 
 message:
@@ -78,7 +78,7 @@ message:
       -
         icon: "/assets/img/icons/theme/media/volume-half.svg"
         title: 음성 녹음
-        lead: 함께 제공되는 MyTwin.ai 앱을 통해 목소리를 녹음하면 애니메이션 재생 시 음성과 함께 자동 생성된 텍스트가 배너로 보여집니다.
+        lead: 함께 제공되는 MetaTwins 앱을 통해 목소리를 녹음하면 애니메이션 재생 시 음성과 함께 자동 생성된 텍스트가 배너로 보여집니다.
       -
         icon: "/assets/img/icons/theme/media/add-music.svg"
         title: 배경 음악
@@ -213,7 +213,7 @@ studio:
       3000+개 애니메이션
     lead: >
       걷고 뛰는 동작부터 최신 K-Pop 댄스까지, AR 트윈에 생명력을 불어넣어 보세요.<br>
-      MyTwin.ai이 미리 설계한 3000+개의 애니메이션 프리셋이면 클릭 한 번으로 간편하게 AR 트윈에 애니메이션을 적용할 수 있습니다.
+      MetaTwins가 미리 설계한 3000+개의 애니메이션 프리셋이면 클릭 한 번으로 간편하게 AR 트윈에 애니메이션을 적용할 수 있습니다.
     videos:
       -
         icon: "/assets/img/icons/theme/communication/chat-2.svg"
@@ -240,7 +240,7 @@ studio:
       -
         icon: "/assets/img/icons/theme/communication/adress-book-2.svg"
         title: MetaTwins Message
-        lead: 간단한 자기 소개부터 복잡한 상품 홍보까지, MyTwin.ai Message로 고객들의 마음을 사로잡아 보세요.
+        lead: 간단한 자기 소개부터 복잡한 상품 홍보까지, MetaTwins Message로 고객들의 마음을 사로잡아 보세요.
         detail_path: "/message/"
       -
         icon: "/assets/img/icons/theme/communication/sending.svg"
@@ -249,7 +249,7 @@ studio:
       -
         icon: "/assets/img/icons/theme/shopping/box-2.svg"
         title: 3D 모델 파일
-        lead: 전문가의 경우 MyTwin.ai Studio에서 제공하는 3D 모델 파일을 활용하여 아바타를 무궁무진하게 활용할 수 있습니다.
+        lead: 전문가의 경우 MetaTwins Studio에서 제공하는 3D 모델 파일을 활용하여 아바타를 무궁무진하게 활용할 수 있습니다.
 
 customer_stories:
   hero:
@@ -277,7 +277,7 @@ customer_stories:
       company_url: "http://www.국가혁명배당금당.kr/"
       company_logo: "/assets/img/customer-stories/logos/nrdparty.png"
       description: >
-        국가혁명배당금당의 허경영 대표는 제21대 총선에서의 선거 유세를 위해 MyTwin.ai Profile을 사용, 그의 트레이드 마크인 공중부양 기술을 AR로 선보이며 유권자들의 관심을 이끌어낼 수 있었습니다.
+        국가혁명배당금당의 허경영 대표는 제21대 총선에서의 선거 유세를 위해 MetaTwins Profile을 사용, 그의 트레이드 마크인 공중부양 기술을 AR로 선보이며 유권자들의 관심을 이끌어낼 수 있었습니다.
       actions:
         -
           title: 체험하기
@@ -287,7 +287,7 @@ customer_stories:
       company_url: "http://classvr.co.kr/"
       company_logo: "/assets/img/customer-stories/logos/classvr.png"
       description: >
-        전 세계의 초중고 교육 기관에 VR 콘텐츠를 공급하는 ClassVR은 Cospaces Edu를 활용한 VR 콘텐츠에서 아이들의 몰입감을 높이기 위해 MyTwin.ai Studio와 연계, 아이들의 실사 캐릭터를 촬영 및 제공하여 VR 교육 시장의 저변 확대에 힘쓰고 있습니다.
+        전 세계의 초중고 교육 기관에 VR 콘텐츠를 공급하는 ClassVR은 Cospaces Edu를 활용한 VR 콘텐츠에서 아이들의 몰입감을 높이기 위해 MetaTwins Studio와 연계, 아이들의 실사 캐릭터를 촬영 및 제공하여 VR 교육 시장의 저변 확대에 힘쓰고 있습니다.
       actions:
         -
           title: 홈페이지 방문
