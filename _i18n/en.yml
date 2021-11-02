@@ -1,5 +1,5 @@
 global:
-  company_name: MyTwin Co., Ltd.
+  company_name: MetaTwins Co., Ltd.
   contact_noun: Contact
   contact_verb: Contact
   email: Email
@@ -15,8 +15,8 @@ global:
 
 nav:
   product: Product
-  figuar_message: MyTwin.ai Message
-  figuar_studio: MyTwin.ai Studio
+  figuar_message: MetaTwins Message
+  figuar_studio: MetaTwins Studio
   customer_stories: Customer Stories
   about: About
   contact: Contact
@@ -25,48 +25,48 @@ footer:
   banner: We are looking for a partner who will open the future with us.
 
 home:
-  title: MyTwin.ai
+  title: MetaTwins
   hero:
     subtitle: My Avatar, AI AR twin
-    title: MyTwin.ai
+    title: MetaTwins
     lead: >
-      Meet MyTwin.ai, a smart AR twin<br>
+      Meet MetaTwins, a smart AR twin<br>
       which delivers a messsage instead of me.
     demo_button: Try 360° demo
   message:
     subtitle: >
       Reach Customer<br>
       as AR Business Card Message!
-    title: MyTwin.ai Message
+    title: MetaTwins Message
     lead: >
       Deliver a realistic message by sending an AR twin to the customer.
-      It's easy to get more trust from the customers with MyTwin.ai,
+      It's easy to get more trust from the customers with MetaTwins,
       a reliable partner which runs from the customer's home to the opposite side of the Earth anytime, anywhere.
   studio:
     subtitle: >
       A space<br>
       where the AR twin is created
-    title: MyTwin.ai Studio
+    title: MetaTwins Studio
     lead: >
-      Meet MyTwin.ai Studio, a space where all the processes of creating and animating AR twins are automatically done.
+      Meet MetaTwins Studio, a space where all the processes of creating and animating AR twins are automatically done.
       You can apply AR technology in your real life by printing 3D twins and sending AR messages.
   
 message:
   hero:
     subtitle: A next-generation AR message service (AMS)
-    title: MyTwin.ai Message
+    title: MetaTwins Message
     lead: >
-      MyTwin.ai Message is a next-generation AR message service (AMS) that can deliver messages as realistically as they are offline.
-      Touch your customers' minds with 3,000+ animating AR messages provided by MyTwin.ai Studio.
+      MetaTwins Message is a next-generation AR message service (AMS) that can deliver messages as realistically as they are offline.
+      Touch your customers' minds with 3,000+ animating AR messages provided by MetaTwins Studio.
     action_button: See Pricing
   ar_twin:
     title: >
       New-normal AR message<br>
       from the AR Twin
     lead: >
-      Spend your annual holiday greetings or happy birthday messages in a special MyTwin.ai Message.
+      Spend your annual holiday greetings or happy birthday messages in a special MetaTwins Message.
       From simple greetings to cool celebratory dance.
-      Thanks to the 3,000+ animation presets provided by MyTwin.ai, there's nothing AR Twin can't do.
+      Thanks to the 3,000+ animation presets provided by MetaTwins, there's nothing AR Twin can't do.
     screenshots:
       - src: "/assets/img/message/louis-introducing.png"
       - src: "/assets/img/message/louis-deepbow.png"
@@ -93,14 +93,14 @@ message:
       no app installation required
     lead: >
       If you have to install an app to view AR messages, not many people will.
-      MyTwin.ai Message uses WebAR technology to show AR messages through a web browser without having to install the app.
+      MetaTwins Message uses WebAR technology to show AR messages through a web browser without having to install the app.
       It made it easier to create links and share them with people.
   social:
     title: >
       A stepping stone into the other channels,<br>
       Social Link Buttons
     lead: >
-      It is also a good idea to use MyTwin.ai Message as a base for connecting to other social channels.
+      It is also a good idea to use MetaTwins Message as a base for connecting to other social channels.
       Not only on the homepage, but also on blogs, Twitter, Facebook, Instagram, YouTube, even phone numbers, e-mail, or KakaoTalk.
     label: Available Services
   comparison:
@@ -174,9 +174,9 @@ message:
 studio:
   hero:
     subtitle: AR twin Metaverse
-    title: MyTwin.ai Studio
+    title: MetaTwins Studio
     lead: >
-      Meet MyTwin.ai Studio, a space where anyone can easily create their own AR twin.
+      Meet MetaTwins Studio, a space where anyone can easily create their own AR twin.
       You can use AR as a means of communication by naturally learning 3D printing while making your own figures and sending AR messages.
   process:
     title: >
@@ -209,10 +209,10 @@ studio:
   animation:
     title: >
       3000+ animations<br>
-      powered by MyTwin.ai
+      powered by MetaTwins
     lead: >
       From walking and running movements to the latest K-Pop dance, give AR Twin a life.
-      With 3000+ animation presets pre-designed by MyTwin.ai, animation can be easily applied to AR Twin with a single click.
+      With 3000+ animation presets pre-designed by MetaTwins, animation can be easily applied to AR Twin with a single click.
     videos:
       -
         icon: "/assets/img/icons/theme/communication/chat-2.svg"
@@ -234,34 +234,34 @@ studio:
     title: My pride, my awesome AR twin
     lead: >
       It's a waste to watch AR twin alone.
-      Using MyTwina.i Message and Sticker, you can easily send AR messages and create images using AR stickers.
+      Using MetaTwins Message and Sticker, you can easily send AR messages and create images using AR stickers.
     outlets:
       -
         icon: "/assets/img/icons/theme/communication/adress-book-2.svg"
-        title: MyTwin.ai Message
+        title: MetaTwins Message
         lead: From simple self-introduction to complex product promotions, capture customers' hearts with DiguAR Message.
         detail_path: "/message/"
       -
         icon: "/assets/img/icons/theme/communication/sending.svg"
-        title: MyTwin.ai Sticker
-        lead: You can use MyTwin.ai Sticker to create simple images using AR Twin.
+        title: MetaTwins Sticker
+        lead: You can use MetaTwins Sticker to create simple images using AR Twin.
       -
         icon: "/assets/img/icons/theme/shopping/box-2.svg"
         title: 3D Model File
-        lead: For professionals, the 3D model files provided by MyTwin.ai Studio can be leveraged to the full range of avatars.
+        lead: For professionals, the 3D model files provided by MetaTwins Studio can be leveraged to the full range of avatars.
 
 customer_stories:
   hero:
     title: Customer Stories
     lead: >
-      See how the leading companies and organizations of South Korea use MyTwin.ai to capture customers and successfully drive their promotional strategies.
+      See how the leading companies and organizations of South Korea use MetaTwins to capture customers and successfully drive their promotional strategies.
   stories:
     -
       thumbnail: "/assets/img/customer-stories/thumbnails/allonebank.png"
       company_url: "http://www.nhbank.com/"
       company_logo: "/assets/img/customer-stories/logos/nhbank-ko.svg"
       description: >
-        NongHyup Bank introduced AR remittance notification service using MyTwin.ai's WebAR technology in a major overhaul of its mobile banking app All One Bank, successfully releasing updates, adding fun elements to its financial transactions along with All One Friends' cute animation.
+        NongHyup Bank introduced AR remittance notification service using MetaTwins's WebAR technology in a major overhaul of its mobile banking app All One Bank, successfully releasing updates, adding fun elements to its financial transactions along with All One Friends' cute animation.
       actions:
         -
           title: Press release
@@ -274,7 +274,7 @@ customer_stories:
       company_url: "http://www.국가혁명배당금당.kr/"
       company_logo: "/assets/img/customer-stories/logos/nrdparty.png"
       description: >
-        Huh Kyung-young, leader of the National Revolutionary Dividends Party, was able to draw voters' attention by using the MyTwin.ai Profile to campaign for the 21st general elections, presenting his trademark levitation technology with AR.
+        Huh Kyung-young, leader of the National Revolutionary Dividends Party, was able to draw voters' attention by using the MetaTwins Profile to campaign for the 21st general elections, presenting his trademark levitation technology with AR.
       actions:
         -
           title: Try it now
@@ -294,10 +294,10 @@ about:
   hero:
     title: >
       AI AR Twin,<br>
-      MyTwin.ai
+      MetaTwins
     lead: >
       We are an IT startup founded in 2015, focusing on popularizing AR technology
-      by launching <b>MyTwin.ai</b>, an AR service brand for Generation Z.
+      by launching <b>MetaTwins</b>, an AR service brand for Generation Z.
   mission:
     badge: Our Mission
     title: For the world where anyone can create their own AR contents
@@ -305,8 +305,8 @@ about:
       Ten years after AR technology became popular, everyone can make videos easily, but it still feels difficult to produce AR content.
       Due to the expensive filming equipment and complex editing methods, AR content was perceived to be produced only by experts.
     lead_2: >
-      MyTwin.ai is creating a world where everyone produces AR content that is the main character in a reasonable price and convenient way.
-      From the main character of the 3D game to virtual fitting of the online shopping mall, please look forward to the AR world that MyTwin.ai will create.
+      MetaTwins is creating a world where everyone produces AR content that is the main character in a reasonable price and convenient way.
+      From the main character of the 3D game to virtual fitting of the online shopping mall, please look forward to the AR world that MetaTwins will create.
   team:
     title: Team Members
     members:
@@ -352,7 +352,7 @@ about:
 contact:
   title: Contact
   hero:
-    title: Meet MyTwin.ai team
+    title: Meet MetaTwins team
     lead: >
       Talk to the FiguAR team members.<br>
       We are actively reviewing not only the voices of our customers but also investment and business partnership inquiries.
