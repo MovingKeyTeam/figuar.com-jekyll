@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MetaTwins
-description: A next-generation AR platform, MetaTwins
-url: "https://metatwins.com" # the base hostname & protocol for your site, e.g. http://example.com
+title: MetaTwin.ai
+description: A next-generation AR platform, MetaTwin.ai
+url: "https://metatwin.ai" # the base hostname & protocol for your site, e.g. http://example.com
 
 phone: +82 10-3030-5050
 email: contact@metatwins.com
