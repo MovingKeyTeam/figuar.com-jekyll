@@ -82,7 +82,7 @@ message:
       -
         icon: "/assets/img/icons/theme/media/volume-half.svg"
         title: Voice Recording
-        lead: When you record your voice through the accompanying FiguAR app, automatically generated text with voice appears as a banner when you play the animation.
+        lead: When you record your voice through the accompanying Metatwins app, automatically generated text with voice appears as a banner when you play the animation.
       -
         icon: "/assets/img/icons/theme/media/add-music.svg"
         title: Background Music
@@ -168,8 +168,8 @@ message:
           - 10,000 pageviews/month
         purchase_url: https://booking.naver.com/booking/6/bizes/331381/items/3614305
   purchase_modal:
-    title: Please leave a message for FiguAR.
-    lead: If you leave a contact with FiguAR, we will reply to you with more information regarding the payment of the service.
+    title: Please leave a message for MetaTwins.
+    lead: If you leave a contact with MetaTwins, we will reply to you with more information regarding the payment of the service.
 
 studio:
   hero:
@@ -284,7 +284,7 @@ customer_stories:
       company_url: "http://classvr.co.kr/"
       company_logo: "/assets/img/customer-stories/logos/classvr.png"
       description: >
-        ClassVR, which supplies VR contents to elementary, middle and high school educational institutions around the world, is working to expand the base of VR education market by filming and providing children's live characters in connection with FiguAR Studio in order to increase children's immersion in VR contents using Cospaces Edu.
+        ClassVR, which supplies VR contents to elementary, middle and high school educational institutions around the world, is working to expand the base of VR education market by filming and providing children's live characters in connection with MetaTwins Studio in order to increase children's immersion in VR contents using Cospaces Edu.
       actions:
         -
           title: Visit website
@@ -354,5 +354,5 @@ contact:
   hero:
     title: Meet MetaTwins team
     lead: >
-      Talk to the FiguAR team members.<br>
+      Talk to the MetaTwins team members.<br>
       We are actively reviewing not only the voices of our customers but also investment and business partnership inquiries.
