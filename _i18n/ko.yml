@@ -263,7 +263,7 @@ customer_stories:
       company_url: "http://www.nhbank.com/"
       company_logo: "/assets/img/customer-stories/logos/nhbank-ko.svg"
       description: >
-        NH농협은행은 자사의 모바일 뱅킹 앱 올원뱅크의 대대적인 개편에서 MetaTwins의 WebAR 기술을 사용하여 AR 송금 알림 서비스를 도입,
+        NH농협은행은 자사의 모바일 뱅킹 앱 올원뱅크의 대대적인 개편에서 MetaTwin.ai의 WebAR 기술을 사용하여 AR 송금 알림 서비스를 도입,
         올원프렌즈의 귀여운 애니메이션과 함께 금융 거래에 재미 요소를 더하며 성공적으로 업데이트를 출시할 수 있었습니다.
       actions:
         -
