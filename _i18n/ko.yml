@@ -4,8 +4,8 @@ global:
   contact_verb: 문의하기
   email: 이메일
   home: 홈
-  hq_address: "서울특별시 마포구 성암로 330, A동 404-3호"
-  hq_address_suffix: "(상암동, DMC첨단산업센터)"
+  hq_address: ""
+  hq_address_suffix: ""
   language:
     en: 영어
     ko: 한국어
