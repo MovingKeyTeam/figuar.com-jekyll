@@ -15,8 +15,8 @@ global:
 
 nav:
   product: Product
-  figuar_message: MetaTwin.ai Message
-  figuar_studio: MetaTwin.ai Studio
+  figuar_message: MetaTwin.AI Message
+  figuar_studio: MetaTwin.AI Studio
   customer_stories: Customer Stories
   about: About
   contact: Contact
@@ -174,7 +174,7 @@ message:
 studio:
   hero:
     subtitle: AI TwinAvatar Metaverse
-    title: MetaTwin.ai Studio
+    title: MetaTwin.AI Studio
     lead: >
       Meet MetaTwin.AI Studio, a space where anyone can easily create their own AI TwinAvatar.
       You can use AI as a means of communication by naturally learning 3D printing while making your own figures and sending AI messages.
@@ -294,7 +294,7 @@ about:
   hero:
     title: >
       AI AI TwinAvatar,<br>
-      MetaTwin.ai
+      MetaTwin.AI
     lead: >
       We are an IT startup founded in 2015, focusing on popularizing AI technology
       by launching <b>MetaTwin.AI</b>, an AI service brand for Generation Z.
