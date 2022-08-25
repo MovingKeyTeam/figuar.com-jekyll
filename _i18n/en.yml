@@ -10,8 +10,6 @@ global:
     en: English
     ko: Korean
   learn_more: Learn more
-  location: Location
-  phone: Phone
 
 nav:
   product: Product
