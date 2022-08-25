@@ -4,8 +4,8 @@ global:
   contact_verb: Contact
   email: Email
   home: Home
-  hq_address: "#404-3, A-dong, 330, Seongam-ro, Mapo-gu, Seoul, South Korea"
-  hq_address_suffix: "(Sangam-dong, DMC High-tech Industrial Center)"
+  hq_address: ""
+  hq_address_suffix: ""
   language:
     en: English
     ko: Korean
