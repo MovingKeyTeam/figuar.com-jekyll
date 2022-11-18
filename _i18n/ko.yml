@@ -4,8 +4,8 @@ global:
   contact_verb: 문의하기
   email: 이메일
   home: 홈
-  hq_address: ""
-  hq_address_suffix: ""
+  hq_address: "서울시 마포구"
+  hq_address_suffix: "성암로"
   language:
     en: 영어
     ko: 한국어
