@@ -4,8 +4,8 @@ global:
   contact_verb: 문의하기
   email: 이메일
   home: 홈
-  hq_address: "서울시 마포구"
-  hq_address_suffix: "성암로"
+  hq_address: "서울시 마포구 성암로 330 A동 404-3호"
+  hq_address_suffix: "(상암동, DMC첨단산업센터)"
   language:
     en: 영어
     ko: 한국어
@@ -22,7 +22,7 @@ nav:
   contact: 연락하기
 
 footer:
-  banner: 투자 10억 하시면, 6개월 내 1,000억 수익 가능.
+  banner: 시드 투자 10억(프리밸류 100억), 6개월 내 1,000억 매출 마일스톤 달성 가능
 
 home:
   title: MetaTwin.AI
