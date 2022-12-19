@@ -22,15 +22,16 @@ title: MetaTwin.ai
 description: A next-generation AR platform, MetaTwin.ai
 url: "https://metatwin.ai" # the base hostname & protocol for your site, e.g. http://example.com
 
-phone: +82 10-3030-5050
+location: 서울시 마포구 성암로 330 A동 404-3호 (상암동, DMC첨단산업센터)
+phone: +82 10-3010-1833
 email: contact@metatwin.ai
-foundation_year: 2015
+foundation_year: 2020
 
 social:
-  youtube: UCxKzdsvQrzC3jh0YQVituWQ
-  facebook: Figuar-108932247442568
-  instagram: movingkey
-  github: figuar
+  #youtube: UCxKzdsvQrzC3jh0YQVituWQ
+  #facebook: Figuar-108932247442568
+  #instagram: movingkey
+  #github: figuar
 
 google_analytics: UA-180192832-1
 
