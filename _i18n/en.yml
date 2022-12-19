@@ -314,17 +314,25 @@ about:
         role: CEO
         avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_yongchang_seo.png
       -
-        name: Louis-Valentin Mazeau
+        name: Louis-Valentin MAZEAU
         role: CTO
         avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_louisvalentin_mazeau.png
       -
-        name: Bertrand Ha
-        role: Research & Development
-        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_bertrand_ha.png
+        name: Jaehwa Seo
+        role: Development
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_jaehwa_seo.png
       -
-        name: Jaewha Seo
-        role: Front-end Development
-        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_dongkyu_kim.png
+        name: David Yu
+        role: CMO
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_david_yu.png
+      -
+        name: Jin Seo
+        role: Marketer
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_jin_seo.png
+      -
+        name: Youngseen Lee
+        role: Marketer
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_youngseen_lee.png
   history:
     title: History
     events:
@@ -346,6 +354,15 @@ about:
       -
         date: Apr 2020
         title: Provided AR promotion websites for the politicians in South Korea
+      -
+        date: Mar 2022
+        title: Provided 3D Digital Human solution for a presidential candidate in South Korea
+      -
+        date: Jun 2022
+        title: Provided 3D Digital Human solution for Local election's candidate in South Korea
+      -
+        date: Jul 2022
+        title: Provided Web 3D promotion solution for the Hyundai IONIQ 6
 
 contact:
   title: Contact

@@ -323,13 +323,21 @@ about:
         role: CTO
         avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_louisvalentin_mazeau.png
       -
-        name: Bertrand Ha
-        role: 연구 및 개발
-        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_bertrand_ha.png
+        name: 서재화
+        role: 개발
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_jaehwa_seo.png
       -
-        name: 김동규
-        role: 프론트엔드 개발
-        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_dongkyu_kim.png
+        name: David Yu
+        role: CMO
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_david_yu.png
+      -
+        name: 서진
+        role: 마케터
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_jin_seo.png
+      -
+        name: 이영신
+        role: 마케터
+        avatar: https://s3.ap-northeast-2.amazonaws.com/content.figuar.com/images/website/profile_youngseen_lee.png
   history:
     title: 연혁
     events:
@@ -351,6 +359,15 @@ about:
       -
         date: 2020년 4월
         title: 제21대 국회의원 선거 후보용 AR 홍보 페이지 제공
+      -
+        date: 2022년 3월
+        title: 제20대 대통령 선거 후보용 3D 디지털 휴먼 솔루션 제공
+      -
+        date: 2022년 6월
+        title: 제8대 전국동시지방선거 후보용 선거 3D 디지털 휴먼 솔루션 제공
+      -
+        date: 2022년 7월
+        title: 현대 IONIQ 6 홍보용 웹 3D 솔루션 제작
 
 contact:
   title: 연락처
