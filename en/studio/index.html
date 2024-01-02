@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		
+		<title>MetaTwin.AI Studio | MetaTwin.ai</title>
+		<meta name="description" content="A next-generation AR platform, MetaTwin.ai" />
+		<meta name="apple-mobile-web-app-title" content="MetaTwin.ai" />
+		<meta property="og:title" content="MetaTwin.AI Studio | MetaTwin.ai" />
+		<meta property="og:url" content="https://metatwin.ai/en/studio/" />
+		<!-- <meta property="og:image" content="https://metatwin.ai/figuar-banner.png" /> -->
+		<!-- <meta property="og:image" content="https://metatwin.ai/metatwinai-baner.png" /> -->
+		<meta property="og:image" content="https://metatwin.ai/metatwinai-banner.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- <link href="/assets/css/loaders/loader-typing.css" rel="stylesheet" type="text/css" media="all" /> -->
+<link rel="stylesheet" href="/assets/css/theme.css" />
+<link rel="preload" as="font" href="/assets/fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous" />
+<link rel="preload" as="font" href="/assets/fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous" />
+<!-- <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png" /> -->
+<link rel="icon" type="image/png" sizes="64x64" href="/mt-favicon.png" />
+<!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" /> -->
+<link rel="apple-touch-icon" sizes="180x180" href="/mt-apple-touch-icon.png" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180192832-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'UA-180192832-1');
+</script>
+	</head>
+	<body>
+		<div class="loader">
+	<div class="loading-animation"></div>
+</div>
+ <div>
+    
+        
+        <div class="language-banner navbar-container bg-primary-3" data-lang="ko" hidden>
+            <div class="container">
+                <div class="row justify-content-center align-items-center py-1">
+                    <div class="col-auto text-small text-light">
+                        <span>MetaTwin.ai는 한국어로도 사용하실 수 있습니다.</span>
+                        <a
+                            href="/studio/"
+                            class="btn btn-sm btn-white text-primary-3 ml-2"
+                        >
+                            언어 변경
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        
+        <div class="language-banner navbar-container bg-primary-3" data-lang="en" hidden>
+            <div class="container">
+                <div class="row justify-content-center align-items-center py-1">
+                    <div class="col-auto text-small text-light">
+                        <span>MetaTwin.ai is also available in English.</span>
+                        <a
+                            href="/en/studio/"
+                            class="btn btn-sm btn-white text-primary-3 ml-2"
+                        >
+                            Change Language
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div> <div class="navbar-container bg-white">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white" data-sticky="top">
+		<div class="container">
+			<a class="navbar-brand fade-page" href="/en/">
+                <!-- <img src="/assets/img/figuar-logo.svg" alt="MyTwin.ai" /> -->
+                <!-- <img src="/assets/img/mytwin-logo.svg" alt="MyTwin.ai" /> -->
+                <!-- <img src="/assets/img/metatwins-logo.svg" alt="MetaTwins.com" /> -->
+                <img src="/assets/img/metatwin-ai-logo.svg" alt="MetaTwin.ai" />
+			</a>
+            <div class="d-flex align-items-center order-lg-3">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">
+                        English
+                        <img class="icon" src="/assets/img/icons/interface/arrow-caret.svg" alt="arrow-caret interface icon" data-inject-svg />
+                    </button>
+                    <div class="dropdown-menu dropdown-content">
+                        
+                            
+                            <a
+                                class="dropdown-item"
+                                href="/studio/"
+                            >
+                                Korean
+                            </a>
+                        
+                            
+                            <a
+                                class="dropdown-item disabled"
+                                href="/en/studio/"
+                            >
+                                English
+                            </a>
+                        
+                    </div>
+                </div>
+                <a href="/en/contact/" class="btn btn-primary d-none d-lg-block">Contact</a>
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <img class="icon navbar-toggler-open" src="/assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+                        <img class="icon navbar-toggler-close" src="/assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-between order-lg-2">
+                <div class="py-2 py-lg-0">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Product</a>
+                            <div class="dropdown-menu row">
+                                <div class="col-auto" data-dropdown-content>
+                                    <div class="dropdown-grid-menu">
+                                        <a href="/en/message/" class="dropdown-item fade-page">MetaTwin.AI Message</a>
+                                        <a href="/en/studio/" class="dropdown-item fade-page">MetaTwin.AI Studio</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/en/customer-stories/" class="nav-link">Customer Stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/en/about/" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item d-block d-lg-none">
+                            <a href="/en/contact/" class="btn btn-primary">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+	</nav>
+</div>
+ <!-- Hero -->
+<section class="o-hidden">
+	<div class="container">
+		<div class="row align-items-center min-vh-50">
+			<div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
+				<h3>AI TwinAvatar Metaverse</h3>
+				<h1 class="display-3">MetaTwin.AI Studio</h1>
+				<div class="my-4">
+					<p class="lead">Meet MetaTwin.AI Studio, a space where anyone can easily create their own AI TwinAvatar. You can use AI as a means of communication by naturally learning 3D printing while making your own figures and sending AI messages.
+</p>
+				</div>
+				<a href="/en/contact/" class="btn btn-lg btn-primary">Contact</a>
+			</div>
+			<div class="col-lg-6 text-center" data-aos="fade-left">
+				<img src="/assets/img/home/studio-frame.jpg" alt="Image" />
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Shoot -->
+<section class="bg-primary-alt has-divider">
+	<div class="divider flip-y">
+		<img class="bg-white" src="/assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
+	</div>
+	<div class="container pb-0">
+		<div class="row justify-content-center text-center mb-6">
+			<div class="col-xl-8 col-lg-9">
+				<h2 class="display-4 mx-xl-6">High-quality AI TwinAvatar<br> with a single shooting
+</h2>
+				<p class="lead">Make an AI TwinAvatar that looks just like me, my AI TwinAvatar that you wanted to have at least once. A single, synchronized 96 camera shutters will finish 3D scanning in no time. While the studio's high-performance computer combines 96 20-megapixel photos, if you have a quick chat, you'll be waiting for the completed AI TwinAvatar.
+</p>
+			</div>
+		</div>
+		<div class="row justify-content-center text-center">
+			
+			<div
+				class="col-6 col-md-3 mb-3 mb-4 mb-md-0"
+				data-aos="fade-up"
+				data-aos-delay="100"
+			>
+				<span
+					class="display-4 text-primary d-block"
+					data-countup
+					data-grouping="true"
+					data-duration="2"
+					data-start="0"
+					data-end="96"
+					
+					
+				></span>
+				<span class="h6">Cameras</span>
+			</div>
+			
+			<div
+				class="col-6 col-md-3 mb-3 mb-4 mb-md-0"
+				data-aos="fade-up"
+				data-aos-delay="200"
+			>
+				<span
+					class="display-4 text-primary d-block"
+					data-countup
+					data-grouping="true"
+					data-duration="2"
+					data-start="0"
+					data-end="20"
+					
+					data-suffix="MP"
+					
+					
+				></span>
+				<span class="h6">Resolution of Each Camera</span>
+			</div>
+			
+			<div
+				class="col-6 col-md-3 mb-3 mb-4 mb-md-0"
+				data-aos="fade-up"
+				data-aos-delay="300"
+			>
+				<span
+					class="display-4 text-primary d-block"
+					data-countup
+					data-grouping="true"
+					data-duration="2"
+					data-start="50"
+					data-end="0.5"
+					
+					data-suffix=" sec"
+					
+					
+					data-decimal-places="1"
+					
+				></span>
+				<span class="h6">Shooting Duration</span>
+			</div>
+			
+			<div
+				class="col-6 col-md-3 mb-3 mb-4 mb-md-0"
+				data-aos="fade-up"
+				data-aos-delay="400"
+			>
+				<span
+					class="display-4 text-primary d-block"
+					data-countup
+					data-grouping="true"
+					data-duration="2"
+					data-start="500"
+					data-end="5"
+					
+					data-suffix=" min"
+					
+					
+				></span>
+				<span class="h6">3D Building Duration</span>
+			</div>
+			
+		</div>
+		<div class="row justify-content-center mt-6 mb-lg-n7">
+			<div class="col-xl-8 col-lg-9 layer-1">
+				<div class="video-poster shadow-lg rounded mb-3">
+					<img src="/assets/img/studio/metashape.png" alt="Image" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="divider flip-x">
+		<img class="bg-primary-2-alt" src="/assets/img/dividers/divider-1.svg" alt="divider graphic" data-inject-svg />
+	</div>
+</section>
+
+<!-- Animate -->
+<section class="bg-primary-2-alt has-divider">
+	<div class="container pb-0">
+		<div class="row justify-content-center text-center mb-6">
+			<div class="col-xl-8 col-lg-9">
+				<h2 class="display-4 mx-xl-6">3000+ animations<br> powered by MetaTwin.AI
+</h2>
+				<p class="lead">From walking and running movements to the latest K-Pop dance, give AI TwinAvatar a life. With 3000+ animation presets pre-designed by MetaTwin.AI, animation can be easily applied to AI TwinAvatar with a single click.
+</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+				<ul class="nav flex-column" role="tablist">
+					
+					<li class="nav-item">
+						<a
+							class="nav-link btn btn-light p-2 text-left active"
+							href="#app-tab-1"
+							data-toggle="tab"
+							aria-controls="app-tab-1"
+							aria-selected="true"
+							role="tab"
+						>
+							<img class="icon bg-primary" src="/assets/img/icons/theme/communication/chat-2.svg" alt="decoration" data-inject-svg />
+							Introducing
+						</a>
+					</li>
+					
+					<li class="nav-item">
+						<a
+							class="nav-link btn btn-light p-2 text-left"
+							href="#app-tab-2"
+							data-toggle="tab"
+							aria-controls="app-tab-2"
+							aria-selected="true"
+							role="tab"
+						>
+							<img class="icon bg-primary" src="/assets/img/icons/theme/communication/group.svg" alt="decoration" data-inject-svg />
+							Korean Deep Bow
+						</a>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="col mb-lg-n7 layer-2">
+				<div class="tab-content">
+					
+					<div
+						class="tab-pane fade show active"
+						id="app-tab-1"
+						role="tabpanel"
+						aria-labelledby="app-tab-1"
+					>
+						<div class="popover-image">
+							<div class="popover-hotspot bg-primary-2" style="bottom: 11.4%; left: 2.05%;" data-toggle="popover" title="전체 화면 버튼" data-content="손쉽게 전체 화면으로 진입하고 나갈 수 있습니다."></div>
+							<div class="popover-hotspot bg-primary-2" style="top: 0.6%; right: 5.8%;" data-toggle="popover" title="소셜 링크 버튼" data-content="여러 소셜 네트워크 서비스를 연결할 수 있습니다."></div>
+							<video src="/assets/videos/animation-introducing.mov" class="rounded shadow-lg" playsinline autoplay muted loop></video>
+						</div>
+					</div>
+					
+					<div
+						class="tab-pane fade"
+						id="app-tab-2"
+						role="tabpanel"
+						aria-labelledby="app-tab-2"
+					>
+						<div class="popover-image">
+							<div class="popover-hotspot bg-primary-2" style="bottom: 11.4%; left: 2.05%;" data-toggle="popover" title="전체 화면 버튼" data-content="손쉽게 전체 화면으로 진입하고 나갈 수 있습니다."></div>
+							<div class="popover-hotspot bg-primary-2" style="top: 0.6%; right: 5.8%;" data-toggle="popover" title="소셜 링크 버튼" data-content="여러 소셜 네트워크 서비스를 연결할 수 있습니다."></div>
+							<video src="/assets/videos/animation-deepbow.mov" class="rounded shadow-lg" playsinline autoplay muted loop></video>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="divider flip-x">
+		<img class="bg-primary-alt" src="/assets/img/dividers/divider-3.svg" alt="graphical divider" data-inject-svg />
+	</div>
+</section>
+
+<section class="bg-primary-alt has-divider">
+	<div class="container pb-0">
+		<div class="row justify-content-center text-center mb-6">
+			<div class="col-xl-8 col-lg-9">
+				<h2 class="display-4 mx-xl-6">A favorite<br> of the children
+</h2>
+				<p class="lead">Give the children an AI TwinAvatar each. It can be a fun and exciting experience for children just by watching another birth process that resembles them. While children play with AI TwinAvatar, they can develop a vision for AI technology.
+</p>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-6 mb-lg-n7">
+			<div class="col-xl-8 col-lg-9 layer-1">
+				<video src="/assets/img/studio/daughter-breakdance.mp4" class="rounded shadow-lg" playsinline autoplay muted loop></video>
+			</div>
+		</div>
+	</div>
+	<div class="divider flip-x">
+		<img class="bg-white" src="/assets/img/dividers/divider-1.svg" alt="divider graphic" data-inject-svg />
+	</div>
+</section>
+
+<section class="has-divider">
+	<div class="container">
+		<div class="row justify-content-center text-center mb-6">
+			<div class="col-xl-8 col-lg-9">
+				<h2 class="display-4 mx-xl-6">My pride, my awesome AI TwinAvatar</h2>
+				<p class="lead">It's a waste to watch AI TwinAvatar alone. Using MetaTwin.AI Message and Sticker, you can easily send AI messages and create images using AI stickers.
+</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+				<div class="icon-round bg-primary mx-auto mb-4">
+					<img class="icon bg-primary" src="/assets/img/icons/theme/communication/adress-book-2.svg" alt="icon" data-inject-svg />
+				</div>
+				<h5>MetaTwin.AI Message</h5>
+				<p class="mx-xl-3">From simple self-introduction to complex product promotions, capture customers' hearts with AI Message.</p>
+				
+				<a href="/en/message/" class="hover-arrow">Learn more</a>
+				
+			</div>
+			
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+				<div class="icon-round bg-primary mx-auto mb-4">
+					<img class="icon bg-primary" src="/assets/img/icons/theme/communication/sending.svg" alt="icon" data-inject-svg />
+				</div>
+				<h5>MetaTwin.AI Sticker</h5>
+				<p class="mx-xl-3">You can use MetaTwin.AI Sticker to create simple images using AI TwinAvatar.</p>
+				
+			</div>
+			
+			<div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+				<div class="icon-round bg-primary mx-auto mb-4">
+					<img class="icon bg-primary" src="/assets/img/icons/theme/shopping/box-2.svg" alt="icon" data-inject-svg />
+				</div>
+				<h5>3D Model File</h5>
+				<p class="mx-xl-3">For professionals, the 3D model files provided by MetaTwin.AI Studio can be leveraged to the full range of avatars.</p>
+				
+			</div>
+			
+		</div>
+	</div>
+	<div class="divider">
+		<img class="bg-primary-3" src="/assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
+	</div>
+</section>
+ <footer class="pb-4 bg-primary-3 text-light" id="footer">
+	<div class="container">
+		
+		<!-- <div class="row mb-5">
+			<div class="col">
+				<div class="card card-body border-0 o-hidden mb-0 bg-primary text-light">
+					<div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
+						<div class="h3 text-center mb-md-0">Seeking seed $10M</div>
+						<a href="/en/contact/" class="btn btn-lg btn-white">Contact</a>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		
+		<div class="row mb-5">
+			<div class="col-12 col-lg">
+				<h5>Contact</h5>
+				<ul class="list-unstyled">
+					<li class="mb-3 d-flex">
+						<img class="icon" src="/assets/img/icons/theme/map/marker-1.svg" alt="marker-1 icon" data-inject-svg />
+						<div class="ml-3">
+							<span>
+								#404-3, A-dong, 330, Seongam-ro, Mapo-gu, Seoul, South Korea
+								<span class="d-block text-muted text-small">(Sangam-dong, DMC High-tech Industrial Center)</span>
+							</span>
+						</div>
+					</li>
+					<li class="mb-3 d-flex">
+						<img class="icon" src="/assets/img/icons/theme/communication/call-1.svg" alt="call-1 icon" data-inject-svg />
+						<div class="ml-3">
+							<a href="tel:+82-10-3010-1833">+82-10-3010-1833</a>
+						</div>
+					</li>
+					<li class="mb-3 d-flex">
+						<img class="icon" src="/assets/img/icons/theme/communication/mail.svg" alt="mail icon" data-inject-svg />
+						<div class="ml-3">
+							<a href="mailto:contact@metatwin.ai">contact@metatwin.ai</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row justify-content-center mb-2">
+			<div class="col-auto">
+				<ul class="nav">
+					<li class="nav-item">
+						<a href="https://www.youtube.com/channel/" class="nav-link">
+							<img class="icon undefined" src="/assets/img/icons/social/youtube.svg" alt="youtube social icon" data-inject-svg />
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://www.facebook.com/" class="nav-link">
+							<img class="icon undefined" src="/assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://www.instagram.com//" class="nav-link">
+							<img class="icon undefined" src="/assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://github.com//" class="nav-link">
+							<img class="icon undefined" src="/assets/img/icons/theme/social/github.svg" alt="github social icon" data-inject-svg />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col col-md-auto text-center">
+				<small class="text-muted">© 2020-2024 MetaTwin.AI Co., Ltd.</small>
+			</div>
+		</div>
+	</div>
+</footer>
+ <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
+	<img class="icon" src="/assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+</a>
+
+ <!-- Required vendor scripts (Do not remove) -->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+
+<!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+<!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+<script src="/assets/js/aos.js"></script>
+<!-- Clipboard (copies content from browser into OS clipboard) -->
+<script src="/assets/js/clipboard.js"></script>
+<!-- Fancybox (handles image and video lightbox and galleries) -->
+<script src="/assets/js/jquery.fancybox.min.js"></script>
+<!-- Flatpickr (calendar/date/time picker UI) -->
+<script src="/assets/js/flatpickr.min.js"></script>
+<!-- Flickity (handles touch enabled carousels and sliders) -->
+<script src="/assets/js/flickity.pkgd.min.js"></script>
+<!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+<script src="/assets/js/ion.rangeSlider.min.js"></script>
+<!-- Isotope (masonry layouts and filtering) -->
+<script src="/assets/js/isotope.pkgd.min.js"></script>
+<!-- jarallax (parallax effect and video backgrounds) -->
+<script src="/assets/js/jarallax.min.js"></script>
+<script src="/assets/js/jarallax-video.min.js"></script>
+<script src="/assets/js/jarallax-element.min.js"></script>
+<!-- jQuery Countdown (displays countdown text to a specified date) -->
+<script src="/assets/js/jquery.countdown.min.js"></script>
+<!-- jQuery smartWizard facilitates steppable wizard content -->
+<script src="/assets/js/jquery.smartWizard.min.js"></script>
+<!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+<script src="/assets/js/plyr.polyfilled.min.js"></script>
+<!-- Prism (displays formatted code boxes) -->
+<script src="/assets/js/prism.js"></script>
+<!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+<script src="/assets/js/scrollMonitor.js"></script>
+<!-- Smooth scroll (animation to links in-page)-->
+<script src="/assets/js/smooth-scroll.polyfills.min.js"></script>
+<!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+<script src="/assets/js/svg-injector.umd.production.js"></script>
+<!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+<script src="/assets/js/twitterFetcher_min.js"></script>
+<!-- Typed text (animated typing effect)-->
+<script src="/assets/js/typed.min.js"></script>
+<!-- Required theme scripts (Do not remove) -->
+<script src="/assets/js/theme.js"></script>
+<!-- Removes page load animation when window is finished loading -->
+<script>
+	window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
+</script>
+
+<script src="/assets/js/language-banner.js"></script>
+
+	</body>
+</html>
